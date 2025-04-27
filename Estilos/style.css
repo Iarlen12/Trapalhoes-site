@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');  
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -10,8 +13,8 @@
 body{
   width: 100vw;
   height: 100vh;
-  background:url('../images/background.jpg') center center/cover fixed no-repeat;
-  color: white; 
+  background:url('../images/background.jpg') center center/cover fixed;
+  color: white;
 }
 header{
   display:flex;
@@ -21,6 +24,7 @@ header{
   position: sticky;
   top: 0;
   left: 10px;
+  z-index: 1000;
   background-color: transparent;
   backdrop-filter: blur(10px);
   padding: 25px;
@@ -52,37 +56,48 @@ header nav a{
   background: rgba(162, 54, 201, 0.79);
   transition: 1s;
 }
+/* HEADER ACIMA */
 
+
+main{
+  
+}
 .catalogo-1 {
   display: grid;
   justify-content:center;
   align-items: center;
-  grid-template-columns: repeat(2, 250px);
+  grid-template-columns: repeat(2, 270px);
   grid-auto-rows: 200px;
   grid-auto-flow: row;
-  grid-gap: 40px 20px;
+  grid-gap: 45px 20px;
   padding: 20px;
   margin-bottom: 120px;
   background:transparent;
 }
+.catalogo-1 a{
+  text-decoration: none;
+}
 #item {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  z-index: 1;
+  color: white;
   border-radius: 7px;
   border: 1px solid rgba(255, 255, 255, 0.35);
-  padding: 7px;
+  padding:7px;
 }
 #item:hover{
   border:2px solid rgba(162, 55, 255, 1);
   transition: 0.5s;
   transform: scale(1.05);
 }
-#item .label{
-  position: absolute;
-  bottom: 10px;
-}
+
+
 #item h2{
-  font-size: 14px;
-  font-family: 'poppins';
-  font-weight: 700;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 500;
   padding-bottom: 7px;
 }
 #item p{
@@ -91,7 +106,41 @@ header nav a{
   font-weight: 600;
 }
 #item img{
+  display: block;
    width: 100%;
    height: 150px;
    border-radius: 13px;
+   margin-bottom: 8px;
+   position: relative;
 }
+
+#item > img::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -75%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
+  transform: rotate(25deg);
+  animation: shine 2s infinite;
+  pointer-events: none; 
+}
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  50%{
+    left: 100%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+/*Corpo Acima terminando */
+
