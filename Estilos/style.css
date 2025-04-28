@@ -67,6 +67,7 @@ main{
   justify-content:center;
   align-items: center;
   grid-template-columns: repeat(2, 270px);
+  gris-auto-columns:270px;
   grid-auto-rows: 200px;
   grid-auto-flow: row;
   grid-gap: 45px 20px;
