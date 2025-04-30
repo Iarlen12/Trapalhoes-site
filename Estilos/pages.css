@@ -90,6 +90,12 @@ header nav a{
   
   margin: 30px 0 30px 0;
 }
+.Box-list h3{
+  font-size:16px;
+  font-family:'Poppins';
+  font-weight:600;
+  padding:10px;
+}
 #Slide{
   background: rgb(175,6,255);
   text-align:center;
