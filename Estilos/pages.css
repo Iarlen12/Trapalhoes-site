@@ -79,7 +79,12 @@ header nav a{
 }
 .img-container::after, .img-container::before{
   content: " ";
-  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095);
+  background-image: conic-gradient(
+  from var(--angle), 
+  #ff4545,
+  #00ff99, 
+  #006aff, 
+  #ff0095);
   width: 98%;
   height: 95%;
   position: absolute;
