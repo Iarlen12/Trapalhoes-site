@@ -7,10 +7,29 @@
   <title>page-Login</title>
   <link rel="stylesheet" href="../Estilos/pages.css">
   <style>
-    
-      .Card{
+        main{
+          display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+      .log-in{
+        width: 78%;
+        height: 500px;
+        background-color:rgba(0,0,0,0.733);
+        margin: 20px;
         display: flex;
-        justify
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .log-in input{
+        background-color: transparent;
+        padding: 10px;
+        border:2px solid rgb(197,166,212);
+        border-radius: 5px;
+        margin: 10px;
       }
     
     
@@ -18,21 +37,20 @@
 </head>
 <body>
           <header>
-          <img src="../Trapa.png" alt="Trapalhoes">
+          <img src="Trapa.png" alt="Trapalhoes">
           <nav>
-            <a id="login-menu" href="#">Login</a>
+            <a id="login-menu" href="Pages/page-login.html">Login</a>
             <a href="#">Menu</a>
           </nav>
         </header>
        <main>
-               <div class="Card">
-                 <form method="Post" autocomplete="on">
+                 <form  class="log-in"  method="Post" autocomplete="on">
                    
                    <input type="email" name="Email" id="Email" placeholder="Digite seu email..."  />
                    <input type="password" name="Senha" id="senha" placeholder="Digite sua senha..." />
                    <input type="submit" name="button" id="button" value="Confirmar" />
                  </form>
-               </div>
+               
        </main>
                <footer>
           <div class="footer">
