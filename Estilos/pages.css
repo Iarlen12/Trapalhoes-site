@@ -97,7 +97,7 @@ header nav a{
   animation: 3s spin linear infinite;
 }
 .img-container::before{
-  filter: blur(1.5rem);
+  filter: blur(1.8rem);
   opacity: 0.5;
 }
 
