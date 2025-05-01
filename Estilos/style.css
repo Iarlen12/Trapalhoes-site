@@ -76,6 +76,8 @@ main{
 }
 .catalogo-1 a{
   text-decoration: none;
+   -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; 
 }
 #item {
   background-color: transparent;
@@ -165,6 +167,27 @@ footer{
 
 footer span{
   font-size: 12px;
+}
+.Link-footer{
+  margin: 10px;
+}
+.Link-footer svg{
+  text-decoration: none;
+  width: 25px;
+  fill: rgba(218,218,218,0.727);
+  outline: none;
+}
+.Link-footer a {
+  text-decoration: none;
+  margin-right: 5px;
+  -webkit-tap-highlight-color: transparent; /* Safari/Chrome em dispositivos móveis */
+  -webkit-touch-callout: none; /* Remove menu de toque no iOS */
+}
+#instagram{
+  width: 20px;
+}
+.Link-footer svg:hover{
+  fill: white;
 }
 
 
