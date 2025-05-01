@@ -13,23 +13,69 @@
         justify-content: center;
         align-items: center;
         }
+        .card{
+          font-family: 'fire Sans';
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color:#000000;
+          border-radius: 10px;
+          padding: 15px;
+          margin: 20px;          
+          width: 90%;
+          height: 450px;
+        }
+        .Top-card{
+          width: 90%;
+          margin-bottom: 30px;
+          color: #E0E0E099;
+        }
+        .Top-card h2{
+          font-family: 'poppins';
+          color: white;
+          margin: 10px 0;
+          font-weight: 800;
+        }
+        .Top-card p{
+          font-size: 14px;
+          font-weight: 500;
+        }
       .log-in{
-        width: 78%;
-        height: 500px;
-        background-color:rgba(0,0,0,0.733);
-        margin: 20px;
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        padding: 10px;
+        margin-left: -10px;
       }
-      
+      .log-in p{
+        margin: 10px 15px;
+        text-align: left;
+      }
+      .log-in p a{
+        text-decoration:none;
+        color:#A717D5 ;
+      }
       .log-in input{
         background-color: transparent;
-        padding: 10px;
-        border:2px solid rgb(197,166,212);
-        border-radius: 5px;
+        padding: 15px;
+        width: 100%;
+        color: white;
+        border:2px solid #4A4C5257;
+        border-radius: 7px;
         margin: 10px;
+      }
+      .log-in input:focus{
+       outline: none;
+       border-color: #A025C7;
+       
+      }
+      #button{
+        background: linear-gradient(
+        to right, 
+        #8B32B8,
+        #AA00FF,
+        #8B32B8
+        )
+        
       }
     
     
@@ -37,19 +83,34 @@
 </head>
 <body>
           <header>
-          <img src="Trapa.png" alt="Trapalhoes">
+          <img src="../Trapa.png" alt="Trapalhoes">
           <nav>
             <a id="login-menu" href="Pages/page-login.html">Login</a>
             <a href="#">Menu</a>
           </nav>
         </header>
        <main>
-                 <form  class="log-in"  method="Post" autocomplete="on">
-                   
-                   <input type="email" name="Email" id="Email" placeholder="Digite seu email..."  />
-                   <input type="password" name="Senha" id="senha" placeholder="Digite sua senha..." />
-                   <input type="submit" name="button" id="button" value="Confirmar" />
+         <div class="card">
+                  <div class="Top-card">
+                    <h2>Cadastre-se </h2>
+                    <p>Fazer login para obter acesso a nossa loja.</p>
+                  </div>
+                      <form  class="log-in"  method="Post" autocomplete="on">
+                        
+              
+                  <center>
+                    <input type="email" name="Email" id="Email" placeholder="Digite seu e-mail..."  />
+                  </center>
+                  <center>
+                    <input type="password" name="Senha" id="senha" placeholder="Digite sua senha..." />
+                  </center>
+                   <p>Ainda não tem uma conta? Clique <a href="#">criar conta</a></p>
+                    <center>
+                      <input type="submit" name="button" id="button" value="Confirmar" />
+                    </center>
                  </form>
+         </div>
+
                
        </main>
                <footer>
