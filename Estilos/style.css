@@ -78,14 +78,12 @@ main{
   text-decoration: none;
 }
 #item {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  z-index: 1;
+  background-color: rgb(77,30,135);
   color: white;
   border-radius: 7px;
   border: 1px solid rgba(255, 255, 255, 0.35);
   padding:7px;
+  position: relative;
 }
 #item:hover{
   border:2px solid rgba(162, 55, 255, 1);
