@@ -88,7 +88,12 @@ header nav a{
   margin:30px 0 30px 0;
 }
 .Button{
-  background:linear-gradient(to right, #471a76, rgb(97,6,157));
+  background:linear-gradient(
+  to right,
+  rgb(118,13,242),
+  rgb(152,86,230), 
+  rgb(118,13,242) 
+  );
   color:white;
   font-size: 16px;
   border-style:none;
