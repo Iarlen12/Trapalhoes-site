@@ -78,12 +78,11 @@ main{
   text-decoration: none;
 }
 #item {
-  background-color: rgb(77,30,135);
+  background-color: transparent;
   color: white;
   border-radius: 7px;
   border: 1px solid rgba(255, 255, 255, 0.35);
   padding:7px;
-  position: relative;
 }
 #item:hover{
   border:2px solid rgba(162, 55, 255, 1);
