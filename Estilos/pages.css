@@ -18,7 +18,7 @@ body{
   background-color: rgb(68,6,99);
   color: white;
 }
-Mensagem-topo{
+.Mensagem-topo{
   font-size: 13px;
   background-color: #b209e5;
   padding: 5px;
@@ -80,15 +80,15 @@ header .material-symbols-outlined{
   #00ff99, 
   #006aff, 
   #ff0095);
-  width: 98%;
+  width: 97%;
   height: 95%;
   position: absolute;
   top:50%;
   left: 50%;
   translate: -50% -50%;
   z-index: -1;
-  padding: 2px;
-  border-radius: 17px;
+  padding: 5px;
+  border-radius: 10px;
   animation: 3s spin linear infinite;
 }
 .img-container::before{
