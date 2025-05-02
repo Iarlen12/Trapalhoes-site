@@ -41,17 +41,47 @@ header{
   margin-bottom:75px;
   z-index: 1000;
 }
+header nav{
+  display:none;
+  position: absolute;
+  background: black;
+  border: 1px solid #A0A0A082;
+  top: 95px;
+  right: 20px;
+  width: 160px;
+  height: 100px;
+  border-radius: 5px;
+  color: white;
+  text-align: left;
+}
+
+header nav a{
+  border: 1px solid #A0A0A082;
+  display: block;
+  padding: 5px;
+  width: 100%;
+  font-family: 'Cal Sans';
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+#menu {
+  opacity: 0;
+  transform: translateY(-20px);
+}
 header img{
   width:66px;
   border-radius: 13px;
 }
 header .material-symbols-outlined{
-  font-size: 18px;
-  margin-right: 5px;
+  font-size: 20px;
+  margin-left: 5px;
   padding: 10px;
-  border-radius: 7px;
-  border: 1px solid rgba(220,220,220,0.088);
+  border-radius: 8px;
+  border: 1px solid rgba(220,220,220,0.171);
 }
+
 
 /* Header Acima acabado*/
 
