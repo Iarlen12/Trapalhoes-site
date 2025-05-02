@@ -42,14 +42,29 @@ header{
   margin-bottom:75px;
 }
 header nav{
+  display:none;
+  position: absolute;
   background: black;
-  width: 100px;
-  height: 50px;
+  border: 1px solid #A0A0A082;
+  top: 80px;
+  right: 20px;
+  width: 160px;
+  height: 100px;
+  border-radius: 5px;
+  color: white;
+  text-align: left;
+}
+
+header nav a{
+  border: 1px solid #A0A0A082;
+  display: block;
+  padding: 5px;
+  width: 100%;
+  font-family: 'Cal Sans';
+  font-weight: 300;
+  font-size: 16px;
   color: white;
   text-decoration: none;
-}
-header nav a{
-  border: 1px solid white;
 }
 header img{
   width:66px;
@@ -58,7 +73,7 @@ header img{
 
 header .material-symbols-outlined{
   font-size: 18px;
-  margin-right: 5px;
+  margin-left: 5px;
   padding: 10px;
   border-radius: 7px;
   border: 1px solid rgba(220,220,220,0.088);
