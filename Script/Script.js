@@ -1,8 +1,10 @@
 function clickMenu() {
   const menu = document.getElementById('menu');
-  
+  const burger = document.getElementById('burger')
+    
   if (menu.style.display === 'block') {
     // Animação para fechar
+    
     menu.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
     menu.style.opacity = '0';
     menu.style.transform = 'translateY(-20px)';
