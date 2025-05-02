@@ -41,6 +41,16 @@ header{
   padding-bottom: 40px;
   margin-bottom:75px;
 }
+header nav{
+  background: black;
+  width: 100px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+}
+header nav a{
+  border: 1px solid white;
+}
 header img{
   width:66px;
   border-radius: 13px;
