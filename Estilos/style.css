@@ -46,7 +46,7 @@ header nav{
   position: absolute;
   background: black;
   border: 1px solid #A0A0A082;
-  top: 80px;
+  top: 95px;
   right: 20px;
   width: 160px;
   height: 100px;
@@ -62,9 +62,13 @@ header nav a{
   width: 100%;
   font-family: 'Cal Sans';
   font-weight: 300;
-  font-size: 16px;
+  font-size: 15px;
   color: white;
   text-decoration: none;
+}
+#menu {
+  opacity: 0;
+  transform: translateY(-20px);
 }
 header img{
   width:66px;
@@ -72,11 +76,11 @@ header img{
 }
 
 header .material-symbols-outlined{
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 5px;
   padding: 10px;
-  border-radius: 7px;
-  border: 1px solid rgba(220,220,220,0.088);
+  border-radius: 8px;
+  border: 1px solid rgba(220,220,220,0.171);
 }
 
 /* HEADER ACIMA */
