@@ -18,6 +18,14 @@ body{
   background-color: rgb(68,6,99);
   color: white;
 }
+Mensagem-topo{
+  font-size: 13px;
+  background-color: #b209e5;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Cal Sans';
+  font-weight: 500;
+}
 header{
   display:flex;
   flex-direction: row;
