@@ -37,28 +37,14 @@ header img{
   width:66px;
   border-radius: 13px;
 }
-
-header nav a{
-  text-decoration: none;
-  color: white;
-  font-weight:500;
-  font-size: 14px;
-  padding:8px 20px;
-  margin-left: 5px;
-  
+header .material-symbols-outlined{
+  font-size: 18px;
+  margin-right: 5px;
+  padding: 10px;
   border-radius: 7px;
-  
+  border: 1px solid rgba(220,220,220,0.088);
 }
 
-#login-menu{
-  background: rgba(65, 21, 98, 1);
-  font-weight: 700;
-  border-style: none;
-}
-#login-menu:hover{
-  background: rgba(162, 54, 201, 0.79);
-  transition: 1s;
-}
 /* Header Acima acabado*/
 
 .container{
