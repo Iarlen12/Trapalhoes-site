@@ -3,6 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -16,6 +18,14 @@ body{
   background:url('../images/background.jpg') center center/cover fixed;
   background-color: rgb(68,6,99);
   color: white;
+}
+.Mensagem-topo{
+  font-size: 13px;
+  background-color: #b209e5;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Cal Sans';
+  font-weight: 500;
 }
 header{
   display:flex;
@@ -36,26 +46,14 @@ header img{
   border-radius: 13px;
 }
 
-header nav a{
-  text-decoration: none;
-  color: white;
-  font-weight:500;
-  font-size: 14px;
-  padding:8px 20px;
-  margin-left: 5px;
-  
+header .material-symbols-outlined{
+  font-size: 18px;
+  margin-right: 5px;
+  padding: 10px;
   border-radius: 7px;
-  
+  border: 1px solid rgba(220,220,220,0.088);
 }
-#login-menu{
-  background: rgba(65, 21, 98, 1);
-  font-weight: 700;
-  border-style: none;
-}
-#login-menu:hover{
-  background: rgba(162, 54, 201, 0.79);
-  transition: 1s;
-}
+
 /* HEADER ACIMA */
 
 
@@ -102,7 +100,7 @@ main{
 }
 #item p{
   font-family: 'Open sans';
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
 }
 #item img{
