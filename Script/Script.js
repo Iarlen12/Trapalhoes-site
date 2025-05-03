@@ -2,6 +2,10 @@ function clickMenu() {
   const menu = document.getElementById('menu');
   const burger = document.getElementById('burger')
     
+    
+    
+    burger.classList.toggle('burger-ativo')
+    
   if (menu.style.display === 'block') {
     // Animação para fechar
     
