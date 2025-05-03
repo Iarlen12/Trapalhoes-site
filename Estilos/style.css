@@ -238,6 +238,9 @@ footer span{
   font-weight: 400;
   color: #FFFFFF;
 }
+.footer p{
+  font-size: 13px;
+}
 .Nave{
   display: grid;
   grid-template-columns: repeat(2, 200px);
