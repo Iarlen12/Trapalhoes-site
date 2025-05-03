@@ -1,0 +1,11 @@
+
+
+
+@media screen (min-width: 365px) and (max-width: 765px){
+  
+  
+  .catalogo-1{
+    grid-template-columns: repeat(2, 250px);
+  }
+  
+}
