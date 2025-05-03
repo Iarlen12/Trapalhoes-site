@@ -2,7 +2,13 @@
 
 
 @media screen and (min-width: 365px) and (max-width: 575px){
-  
+  header .material-symbols-outlined{
+    font-size: 15px;
+  } 
+  header nav{
+    width: 130px;
+    max-width: 160px;
+  }
   
   .catalogo-1{
     grid-template-columns: repeat(2, 250px);
@@ -14,6 +20,7 @@
   .catalogo-1{
     grid-template-columns: repeat(3, 300px);
   }
+  
   /*corpo*/
   .footer{
     display: flex;
@@ -38,6 +45,6 @@
   .Lista-footer ul a{
     font-size: 13px;
     text-indent: 0;
-
   }
+  
 }

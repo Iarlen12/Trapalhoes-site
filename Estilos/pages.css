@@ -105,6 +105,7 @@ header .material-symbols-outlined{
   padding: 10px;
   width:100%;
   position: relative;
+  margin: auto
 }
 @property --angle{
   syntax:"<angle>";
@@ -270,6 +271,9 @@ footer span{
   font-size: 15px;
   font-weight: 400;
   color: #FFFFFF;
+}
+.footer p{
+  font-size: 13px;
 }
 .Nave{
   display: grid;
