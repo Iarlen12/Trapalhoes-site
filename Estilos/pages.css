@@ -101,7 +101,6 @@ header .material-symbols-outlined{
 }
 
 .img-container{
-  background-color:;
   border-radius: 15px;
   padding: 10px;
   width:100%;
@@ -153,7 +152,7 @@ header .material-symbols-outlined{
   padding: 10px;
   text-shadow: 2px 2px 3px #1e1e1eb3;
 }
-.container img{
+.img-container img{
   display: block;
   margin: auto;
   border-radius: 12px;

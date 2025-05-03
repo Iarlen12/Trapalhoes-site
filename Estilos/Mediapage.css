@@ -1,3 +1,10 @@
 
 
-@media screen and (min-widt)
+@media screen and (min-width: 365px) and (max-width: 765px){
+  
+  .img-container img{
+    min-width: 93%;
+    max-width: 100%;
+  }
+  
+}  
