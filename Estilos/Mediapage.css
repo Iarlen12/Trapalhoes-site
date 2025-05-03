@@ -1,9 +1,19 @@
 
 
-@media screen and (min-width: 365px) and (max-width: 765px){
+@media screen and (min-width: 365px) and (max-width: 765px)
+{
+  Mensagem.topo{
+    width: 100%;
+  }
+    header{
+      width: 100%;
+    }
   .img-container img{
     min-width: 93%;
     max-width: 100%;
+  }
+  .Nave{
+    grid-gap: 0 15px
   }
 }
 
