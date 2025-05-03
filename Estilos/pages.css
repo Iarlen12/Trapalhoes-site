@@ -81,7 +81,11 @@ header .material-symbols-outlined{
   border-radius: 8px;
   border: 1px solid rgba(220,220,220,0.171);
 }
-
+.burger-ativo{
+  background-color: rgba(171,171,171,0.188);
+  transition: 0.3s;
+  opacity: 0.5s ;
+}
 
 /* Header Acima acabado*/
 
