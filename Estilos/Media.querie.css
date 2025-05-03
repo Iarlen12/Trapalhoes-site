@@ -11,7 +11,7 @@
   }
   
   .catalogo-1{
-    grid-template-columns: repeat(2, 250px);
+    grid-template-columns: repeat(2, 200px);
   }
 }
 
