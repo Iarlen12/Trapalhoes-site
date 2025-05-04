@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 365px) and (max-width: 765px)
+@media screen and (min-width: 365px) and (max-width: 750px)
 {
   Mensagem.topo{
     width: 100%;
@@ -17,23 +17,76 @@
   }
 }
 
-@media screen and (min-width: 765px) and (max-width: 1200px){
+@media screen and (min-width: 1200px){
   
-  .img-container{
-    background-color: #444444;
-    width: 56%;
+
+  .Container2{
+    width: 60%;
+    display:flex;
+    flex-direction: row;
   }
+  .img-container{
+    background-color: #171717;
+    width: 500px;
+    height: 300px;
+  }
+  .card-button{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    max-width:650px;
+    height:350px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 1cm;
+    background-color: #171717;
+
+  }
+  .card-button h3{
+    font-family: 'Cal sans';
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0 10px;
+  }
+  .card-button p{
+    background-color: #67158e;
+    font-weight: 700;
+    width: 70%;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  #valor{
+    margin-top: 20px;
+  }
+  #valor h2{
+    font-size: 23px;
+    font-weight: 800;
+  }
+  #valor p{
+    background-color: transparent;
+    color: #c9c9c9a9;
+  }
+    .Button-2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin-top: 1cm;
+  }
+  #button-media{
+    display: block;
+    margin-top:5px;
+  }
+
   .img-container::after, .img-container::before{
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    padding: 4px;
+    display: none;
   }
   .img-container img{
     width: 100%;
+    height: 100%;
   }
   .Button{
-    font-size: 12px;
+    display: none;
   }
    .Box-list{
      height:800px;
@@ -42,11 +95,14 @@
     display: none;
   }
   #Slide{
-    width: 60%;
+    width: 50%;
   }
   .Tabela{
-    width: 60%;
+    width: 50%;
     height: 500px;
+  }
+  .Tabela ul li{
+    font-size: 12px;
   }
   /*corpo*/
   

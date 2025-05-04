@@ -161,8 +161,7 @@ header .material-symbols-outlined{
   height: 300px;
 }
 .Container-button{
-  font-family:'Fire Sans';
-  font-weight:700;
+  
   margin:30px 0 30px 0;
 }
 .Button{
@@ -176,8 +175,12 @@ header .material-symbols-outlined{
   font-size: 16px;
   border-style:none;
   border-radius:8px;
-  width:auto;
   padding:13px;
+  font-family:'Fire Sans';
+  font-weight:700;
+}
+.card-button{
+  display: none;
 }
 .car-gift{
   border:1px solid rgba(181,181,181,0.489);
