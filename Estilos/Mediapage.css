@@ -18,34 +18,60 @@
 }
 
 @media screen and (min-width: 1200px){
-  
-
+          header .material-symbols-outlined{
+    font-size: 16px;
+  } 
+      .container{
+        display:grid;
+        justify-content: center;
+        grid-template-columns:900px 400px;
+        grid-template-rows:500px 100px;
+        grid-auto-rows: 400px;
+        grid-gap:10px 0;
+      }
+      .Container2, .card-form, .Box-list{
+        padding: 0px 30px;
+      }
   .Container2{
-    width: 60%;
     display:flex;
+    gap: 30px;
     flex-direction: row;
+    align-items: center;
+    position: relative;
   }
   .img-container{
     background-color: #171717;
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    max-width: 500px;
+    height: 250px;
+    position: relative;
+    bottom: 80px;
+  }
+  .card-form{
+    
+    grid-column: 2;
+    grid-row: 1/4;
+  }
+  .pagamento{
+    display: block;
   }
   .card-button{
     display: flex;
     flex-direction:column;
     width: 50%;
     max-width:650px;
-    height:350px;
-    border-radius: 15px;
+    height:430px;
+    border-radius: 25px 25px 7px 7px;
     padding: 20px;
-    margin-left: 1cm;
     background-color: #171717;
 
   }
-  .card-button h3{
+  
+ 
+  .card-button h2{
     font-family: 'Cal sans';
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 900;
     padding: 10px 0 10px;
   }
   .card-button p{
@@ -66,11 +92,18 @@
     background-color: transparent;
     color: #c9c9c9a9;
   }
+   .Button-2 h3{
+    font-size: 19px;
+    font-weight: 600;
+    color: #ccccccd9;
+    text-align: center;
+    padding: 10px;
+  }
     .Button-2{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
+    width: 100%;
     margin-top: 1cm;
   }
   #button-media{
@@ -88,39 +121,44 @@
   .Button{
     display: none;
   }
-   .Box-list{
-     height:800px;
-   }
+
   #produto{
     display: none;
   }
   #Slide{
-    width: 50%;
+    width: 600px;
+  }
+  .Box-list{
+    grid-column: 1;
+    grid-row: 2/5;
   }
   .Tabela{
-    width: 50%;
-    height: 500px;
+    width: 600px;
+    height: 50%;
   }
   .Tabela ul li{
     font-size: 12px;
   }
   /*corpo*/
-  
-    .footer{
+  .footer{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 20px;
   }
   .footer p{
-    font-size: 14px;
+    font-size: 16px;
     width: 100%;
     max-width: 400px;
   }
+  .Link-footer svg{
+    width: 35px;
+  }
+  #instagram{
+  width: 25px;
+}
   .Nave{
-    grid-template-columns: repeat(3, 150px);
+    grid-template-columns: repeat(3, 250px);
     margin:0;
   }
   .Link-footer {
@@ -130,4 +168,5 @@
     font-size: 13px;
     text-indent: 0;
   }
+  
 }
