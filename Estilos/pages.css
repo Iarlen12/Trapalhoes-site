@@ -259,18 +259,28 @@ header .material-symbols-outlined{
   border: none;
   border-bottom: 4px solid rgba(97,10,195,0.842);
   color:white;
-  font-size: 14px;
+  font-size: 15px;
   border-radius:8px;
   font-family:'Fire Sans';
   font-weight:700;
   padding:13px;
   margin: 3px;
 }
-
+.button-style:hover{
+  background: rgb(124,36,229);
+    border-bottom: 3px solid rgba(142,52,244,0.842);
+  transition: 0.5s;
+  transform: translate(0px , -4px);
+}
 .car-gift{
   border:1px solid rgba(181,181,181,0.325);
   border-bottom:4px solid rgba(181,181,181,0.141);
   background: transparent;
+}
+.car-gift:hover{
+  background-color: rgba(206,206,206,0.503);
+  transition: 0.5;
+  opacity: 1s ease;
 }
 .Box-list{
   
