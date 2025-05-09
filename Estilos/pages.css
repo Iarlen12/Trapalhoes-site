@@ -186,13 +186,13 @@ header .material-symbols-outlined{
 .Button{
   background:linear-gradient(
   to right,
-  rgb(118,13,242),
-  rgb(152,86,230), 
-  rgb(118,13,242) 
+  rgb(116,15,237),
+  rgb(133,42,238),
+  rgb(116,15,237)
   );
   color:white;
   font-size: 16px;
-  border-style:none;
+  border:2px solid rgb(168,107,237);
   border-radius:8px;
   padding:13px;
   font-family:'Fire Sans';
@@ -203,7 +203,7 @@ header .material-symbols-outlined{
 }
 .car-gift{
   border:1px solid rgba(181,181,181,0.489);
-  background:transparent;
+  background: transparent;
 }
 .Box-list{
   
@@ -250,7 +250,7 @@ footer{
 }
 
 .footer img{
-  width: 90px;
+  width: 70px;
   border-radius: 15px;
   margin-bottom:20px;
 }
@@ -321,4 +321,5 @@ footer span{
   justify-content: center;
   font-weight: 600;
   color: #FFFFFFD6;
+  margin-bottom: 20px;
 }
