@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1024px){
           header .material-symbols-outlined{
     font-size: 16px;
   } 
@@ -28,10 +28,12 @@
         grid-template-rows:500px 100px;
         grid-auto-rows: 400px;
         grid-gap:10px 0;
+        background: #00000010;
       }
       .Container2, .card-form, .Box-list{
         padding: 0px 30px;
       }
+
   .Container2{
     display:flex;
     gap: 30px;
@@ -41,11 +43,12 @@
   }
   .img-container{
     background-color: #171717;
-    width: 300px;
+    width: 250px;
     max-width: 500px;
-    height: 250px;
+    height: 200px;
     position: relative;
     bottom: 80px;
+    padding: 20px;
   }
   .card-form{
     
@@ -105,7 +108,21 @@
     justify-content: center;
     width: 100%;
     margin-top: 1cm;
+    padding: 0px 30px;
+    
   }
+  .button-desktop{
+    background:linear-gradient(
+  to right,
+  rgb(116,15,237),
+  rgb(172,109,244),
+  rgb(116,15,237)
+  );
+  border: none;
+  border-bottom: 4px solid rgba(97,10,195,0.842);
+    
+  }
+  
   #button-media{
     display: block;
     margin-top:5px;
