@@ -58,75 +58,7 @@
   .pagamento{
     display: block;
   }
-  .card-button{
-    display: flex;
-    flex-direction:column;
-    width: 50%;
-    max-width:650px;
-    height:430px;
-    border-radius: 25px 25px 7px 7px;
-    padding: 20px;
-    background-color: #171717;
-
-  }
   
- 
-  .card-button h2{
-    font-family: 'Cal sans';
-    font-size: 23px;
-    font-weight: 900;
-    padding: 10px 0 10px;
-  }
-  .card-button p{
-    background-color: #67158e;
-    font-weight: 700;
-    width: 70%;
-    padding: 5px;
-    border-radius: 10px;
-  }
-  #valor{
-    margin-top: 20px;
-  }
-  #valor h2{
-    font-size: 23px;
-    font-weight: 800;
-  }
-  #valor p{
-    background-color: transparent;
-    color: #c9c9c9a9;
-  }
-   .Button-2 h3{
-    font-size: 19px;
-    font-weight: 600;
-    color: #ccccccd9;
-    text-align: center;
-    padding: 10px;
-  }
-    .Button-2{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    margin-top: 1cm;
-    padding: 0px 30px;
-    
-  }
-  .button-desktop{
-    background:linear-gradient(
-  to right,
-  rgb(116,15,237),
-  rgb(172,109,244),
-  rgb(116,15,237)
-  );
-  border: none;
-  border-bottom: 4px solid rgba(97,10,195,0.842);
-    
-  }
-  
-  #button-media{
-    display: block;
-    margin-top:5px;
-  }
 
   .img-container::after, .img-container::before{
     display: none;
