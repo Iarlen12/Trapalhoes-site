@@ -9,9 +9,12 @@
       <script src="../Script/Script.js"></script>
       <link rel="stylesheet" href="../Estilos/Mediapage.css" media="screen">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+    </style>
 </head>
 <body>
-          <div class="Mensagem-topo">
+           <div class="Mensagem-topo">
          <p> &#127882 Loja recém lançada!!</p>
         </div>
           <header>
@@ -24,11 +27,10 @@
           <span class="material-symbols-outlined">
                   shopping_cart
           </span> 
-          
-          <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+        
+          <span id="burger" class="material-symbols-outlined"onclick="clickMenu()">
              menu
-          </span>
-                         <nav id="menu">
+          </span>                         <nav id="menu">
             <a href="../Pages/page-login.html">
               <p>Login</p>
             </a>
@@ -39,26 +41,69 @@
               <p>Avaliações</p>
             </a>
           </nav>
+
           </div>
 
         </header>
        <main>
-         
+                  <nav class="pages-topo">
+           <a href="../index.html">Início</a>
+           /                                /
+           <a href="../Pages/Page-netflix.html">Netflix</a>
+         </nav>
             <div class="container">
-            <h2 id="produto">NETFLIX :</h2>
-            <div class="img-container">
+          
+            <div class="Container2">
+              
+             <div class="img-container">
               <img src="../images/Print-Netflix-logo-marca.jpg" alt="">
-            </div>
-             <div class="Container-button">
-               
-               <button  class="Button" type="submit">Comprar agora</button>
-               <button class="Button car-gift" type="submit">Adicionar ao carrinho</button>
+              </div>
+              
+              <div class="card-button">
+                <h2>Netflix</h2>
+                
+                <p id="entrega"><i class="fa-solid fa-bolt"></i> Entrega automática</p>
+               <div id="valor">
+                <h2>R$ 10,00</h2>
+                <p>A vista no pix</p>
+               </div>
+               <div class="Button-2">
+                 <h3>Estoque limitado</h3>
+               <button class="Button button-desktop" type="submit">Comprar agora</button>
+               <button class="Button car-gift" type="submit"> 
+      
+                 <i class="fa-solid fa-cart-plus" style="margin-right:5px;"></i>
+                 Adicionar ao carrinho
+              
+               </button>
              </div>
+              </div>
+             </div>
+             
+             <div class="card-form">
+             <div class="pagamento">
+               
+               <div class="form-pag">
+                 <h3>Compra segura</h3>
+                 <p>suas compras são protegidas por criptografia SSL e garantida por criptografia.</p>
+               </div>
+            </div>
+
+            <div class="pagamento">
+              <div class="form-pag">
+               <h3>Formas de pagamentos.</h3>
+            </div>
+            </div>
+            
+            </div>
+            
+             
             <section class="Box-list">
               <h3>Descrição:</h3>
-            <div id="Slide"> <h2>Tabela de Preços</h2>
-            </div>
+              
+
              <div class="Tabela">
+               <h2>Netflix</h2>
                <ul>
                  <li> -R$ 16,00</li>
                  <li> -R$ 25,00</li>
@@ -72,8 +117,8 @@
                  <li> -R$ 29,00</li> 
                </ul>
              </div>
-            </div>
             </section>
+          </div>
   </main>
         <footer>
           <div class="footer">
@@ -106,8 +151,10 @@ Compre tranquilo na Trapalhões Shop, sabendo que está lidando com uma loja dig
              <div class="Lista-footer">
                <h3>Empresa</h3>
                 <ul>
-                 <a href="#"><li>Termos e Serviço</li></a>
-                 <a href="#"><li>Termos de uso</li></a>
+                 <a href="../Pages/termos-servicos.html">
+                 <li>Termos e Serviço</li>
+                 </a>
+                 <a href="../Pages/termos-uso.html"><li>Termos de uso</li></a>
                </ul>
              </div>   
              
