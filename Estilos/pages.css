@@ -276,9 +276,9 @@ header .material-symbols-outlined{
 }
 .button-style:hover{
   background: rgb(124,36,229);
-    border-bottom: 3px solid rgba(142,52,244,0.842);
+    border-bottom: 3px solid rgba(181,123,246,0.683);
   transition: 0.5s;
-  transform: translate(0px , -2px);
+  transform: scale(1.03);
 }
 .car-gift{
   border:1px solid rgba(181,181,181,0.325);
@@ -289,7 +289,7 @@ header .material-symbols-outlined{
   background-color: rgba(181,181,181,0.188);
   border-bottom:4px solid rgba(181,181,181,0.267);
   transition: 0.5s;
-  transform: translate(0px , -2px);
+  transform: scale(1.03);
 }
 .Box-list{
   
