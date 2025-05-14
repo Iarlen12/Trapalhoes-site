@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
   header .material-symbols-outlined{
     font-size: 15px;
   } 
@@ -16,8 +16,14 @@
 
 
 @media (max-width: 480px){
+  .button-main{
+    font-size: 12px;
+  }
   .catalogo-1{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .conteudo-item{
+    padding: 15px;
   }
   .conteudo-item h2{
     font-size: 11px;
