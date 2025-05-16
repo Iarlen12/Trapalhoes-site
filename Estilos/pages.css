@@ -132,7 +132,7 @@ header .material-symbols-outlined{
 .img-container::after, .img-container::before{
   content: " ";
   background-image: conic-gradient(
-  from var(--angle), #bea311 50%, gold);
+  from var(--angle), #5713bab6 40%, #8c1dff);
   width: 100%;
   height: 100%;
   position: absolute;
