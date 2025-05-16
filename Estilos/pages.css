@@ -96,6 +96,15 @@ header .material-symbols-outlined{
 }
 
 /* Header Acima acabado*/
+.container-discord{
+  position: fixed;
+  z-index: 9999;
+  bottom: 50px;
+  right: 20px;
+}
+ #discord-flutuante img{
+  border-radius: 50%;
+}
 .pages-topo{
   width: 90vw;
   margin: 10px;
