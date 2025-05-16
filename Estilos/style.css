@@ -95,7 +95,20 @@ header .material-symbols-outlined{
   opacity: 0.5s ;
 }
 /* HEADER ACIMA */
+.container-discord{
+  position: fixed;
+  z-index: 9999;
+  bottom: 50px;
+  right: 20px;
+}
+ #discord-flutuante img{
+  border-radius: 50%;
+}
 
+a{
+    -webkit-tap-highlight-color: transparent; /* Safari/Chrome em dispositivos móveis */
+  -webkit-touch-callout: none; /* Remove menu de toque no iOS */
+}
 .topo-main{
   display:flex;
   justify-content: center;
@@ -112,6 +125,7 @@ header .material-symbols-outlined{
   font-family: 'Fire sans';
   font-weight: 500;
   font-size: 16px;
+  text-decoration: none;
 }
 .button-main:hover{
   background: rgb(98,24,186);
@@ -281,8 +295,7 @@ footer span{
 .Link-footer a {
   text-decoration: none;
   margin-right: 5px;
-  -webkit-tap-highlight-color: transparent; /* Safari/Chrome em dispositivos móveis */
-  -webkit-touch-callout: none; /* Remove menu de toque no iOS */
+
 }
 #instagram{
   width: 20px;
