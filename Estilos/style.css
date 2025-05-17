@@ -260,6 +260,7 @@ a{
 }
 
 .conteudo-item{
+  position: relative;
   margin-top: -5px;
   padding: 8px;
   width: 100%;
@@ -283,6 +284,10 @@ a{
   font-size: 13px;
   font-weight: 500;
   color: #c9c9c9;
+}
+#addCar{
+  position: absolute;
+  right: 0;
 }
 .button-container{
   display: flex;
@@ -308,12 +313,7 @@ a{
   border: 2px solid rgb(154,50,255);
   transition: 1s;
 }
-#item img{
-   width: 100%;
-   height: 150px;
-   border-radius: 10px 10px 0px 0px;
-   border:1px solid rgb(123,0,230);
-}
+
 
 
 .img-container {
@@ -323,7 +323,12 @@ a{
     overflow: hidden;
 }
 
-
+.img-container img{
+   width: 100%;
+   height: 150px;
+   border-radius: 10px 10px 0px 0px;
+   border:1px solid rgb(123,0,230);
+}
 .img-container::before {
   content: " ";
   background: linear-gradient(to left, 
