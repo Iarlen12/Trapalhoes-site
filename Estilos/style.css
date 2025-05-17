@@ -46,29 +46,24 @@ header nav{
   display:none;
   position: absolute;
   background: black;
-  border: 1px solid #A0A0A082;
+  border: 1px solid #a0a0a042;
   top: 95px;
   right: 20px;
-  width: 160px;
-  height: 100px;
+  height: 107px;
   border-radius: 5px;
   color: white;
   text-align: left;
 }
 
 header nav a{
-  border: 1px solid #A0A0A082;
+  border: 1px solid #a0a0a042;
   display: block;
   padding: 7px;
-  width: 100%;
   font-family: 'Cal Sans';
-  font-weight: 300;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 16px;
   color: white;
   text-decoration: none;
-  
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none; 
 }
 header nav a:hover{
   background-color: rgba(99,18,144,0.371);
