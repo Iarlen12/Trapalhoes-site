@@ -110,7 +110,7 @@ header .material-symbols-outlined{
  }
 
 a{
-  -webkit-tap-highlight-color: transparent; /* Safari/Chrome em dispositivos móveis */
+    -webkit-tap-highlight-color: transparent; /* Safari/Chrome em dispositivos móveis */
   -webkit-touch-callout: none; /* Remove menu de toque no iOS */
 }
 .topo-main{
@@ -316,11 +316,11 @@ footer span{
 
 .Lista-footer{
   margin: 20px;
-  
+  font-family: 'Outfit';
 }
 .Lista-footer h3{
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   color: #FFFFFF;
 }
 .Nave{
@@ -339,7 +339,6 @@ footer span{
   text-decoration: none;
   color: #BDBDBE;
   font-weight: 300;
-  text-indent: 20px;
   font-size: 13px;
 }
 
