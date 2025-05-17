@@ -1,144 +1,126 @@
-@media screen and (max-width: 768px){
-  header .material-symbols-outlined{
-    font-size: 15px;
-  } 
-  header nav{
-    width: 130px;
-    max-width: 160px;
+
+
+
+@media (max-width: 768px){
+  .img-container{
+    width: 95%;
+    height: 350px;
   }
-  
-  .catalogo-1{
-    
-    grid-auto-rows: 290px;
-  }
-  
 }
-
-
-
 @media (max-width: 480px){
-  .button-main{
-    font-size: 12px;
+  
+  Mensagem.topo{
+    width: 100%;
   }
-  .catalogo-1{
-    grid-auto-rows: 290px;
+    header{
+      width: 100%;
+    }
+  .img-container{
+    max-width: 95%;
+    height: 250px;
   }
-  .conteudo-item{
-    padding: 15px;
-  }
-  .conteudo-item h2{
-    font-size: 11px;
+  .card-button{
+    max-width: 400px;
   }
   .Nave{
+    
     grid-template-columns: repeat(1, 170px);
-  }
   
-  .Lista-footer li{
-    font-size: 10px;
+    
   }
   
 }
-
-
 
 @media screen and (min-width:768px) and (max-width:1023px){
-  .carrinho-tela{
-    width: 40vw;
-#910eff    
-  }
-  
-  .catalogo-1{
-    margin-bottom:100px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 320px;
-  }
-  .footer p{
-    width: 500px;
-    max-width:650px;
+  .img-container{
+    width: 75%;
+    height: 400px;
+    max-height: 450px;
   }
 }
-
-
 @media (min-width: 1024px){
-  header{
-    justify-content: space-around;
-  }
-  header .desktop{
-    display: block;
-  }
-  .navbar{
-    display: none;
-  }
-  #login-desktop{
-    background: linear-gradient(to right, 
-    #910eff,
-    #a942ff,
-    #910eff);
-    color: white;
-    padding: 14px 20px;
-    margin-right: 5px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .search{
-    display: block;
-    position: relative;
-  }
-  #icon-search{
-    position: absolute;
-    left: 20px;
-    top: 30%;
-    color: #b7b7b7;
-  }
-  #searchInput:focus{
-    background:#444444e8;
-    border: 2px solid #910eff;
-  }
-  #searchInput{
-    background: transparent;
-    color: white;
-    border: 2px solid #ebebeb3d;
-    border-radius: 50px;
-    width: 570px;
-    outline: none;
-    padding: 15px 0 15px 50px;
-    transition: 0.5s ease-out;
-  }
-  .search label{
-    width: 20px;
-  }
-  .topo-main > .car-top{
-    display: none;
-  }
-  .container-discord{
-    display: none;
-  }
-  .carrinho-tela{
-    width: 28vw;
-  }
-  .container-info{
-    padding: 20px;
-  }
-    header .material-symbols-outlined{
+          header .material-symbols-outlined{
     font-size: 16px;
   } 
-  main{
-    margin-bottom:3cm ;
+      .container{
+        display:grid;
+        justify-content: center;
+        grid-template-columns:800px 400px;
+        grid-template-rows:500px 100px;
+        grid-auto-rows: 400px;
+        grid-gap:10px 0;
+        background: #00000010;
+      }
+      .Container2, .card-form, .Box-list{
+        padding: 0px 30px;
+      }
+
+  .Container2{
+    display:flex;
+    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+  .img-container{
+    
+    width: 300px;
+    max-width: 500px;
+    height: 200px;
+    position: relative;
+    bottom: 80px;
+  }
+    .img-container::after, .img-container::before{
+    animation: 7s spin linear infinite;
+  }
+  .card-button{
+    width:50%;
+  }
+  .card-form{
+    
+    grid-column: 2;
+    grid-row: 1/4;
+  }
+  .pagamento{
+    display: block;
   }
   
-  .catalogo-1{
-    margin-bottom:50px;
-    grid-template-columns: repeat(4, 300px);
-    grid-auto-rows: 320px;
+
+
+  .img-container img{
+    width: 100%;
+    height: 100%;
   }
-  .conteudo-item{
-    border:3px solid rgba(255,255,255,0.147);
-    border-top: none;
+  .Button{
+    
+  }
+
+  #produto{
+    display: none;
+  }
+  #Slide{
+    width: 100%;
+  }
+  .Box-list{
+    
+    grid-column: 1;
+    grid-row: 2/5;
+  }
+  .Tabela{
+    width: 100%;
+    height: 80%;
+  }
+  .Tabela h2{
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .Tabela ul li{
+    font-size: 16px;
   }
   /*corpo*/
   .footer{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
