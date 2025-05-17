@@ -105,6 +105,7 @@ header .material-symbols-outlined{
   padding: 10px;
   border-radius: 8px;
   border: 1px solid rgba(220,220,220,0.171);
+  cursor: pointer;
 }
 .burger-ativo{
   background-color: rgba(171,171,171,0.188);
