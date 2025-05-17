@@ -15,6 +15,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 5cm;
         }
         .card{
           font-family: 'fire Sans';
@@ -87,8 +88,23 @@
         font-size: 15px;
         text-align: center;
       }
-    
-    
+            @media (max-width:480px){
+      .card{
+        min-height: 300px;
+      }
+    }
+    @media (min-width: 1024px){
+      main{
+        margin-bottom: 10cm;
+      }
+      .card{
+        width: 50%;
+      }
+      .Top-card h2{
+        font-size: 22px;
+      }
+    }
+
   </style>
 </head>
 <body>
