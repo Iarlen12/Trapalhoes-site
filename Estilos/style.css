@@ -104,6 +104,9 @@ header .material-symbols-outlined{
  #discord-flutuante img{
   border-radius: 50%;
 }
+ #discord-flutuante img:hover{
+   transform: translate(+10px, +10px);
+ }
 
 a{
     -webkit-tap-highlight-color: transparent; /* Safari/Chrome em dispositivos móveis */
