@@ -110,7 +110,7 @@ header .material-symbols-outlined{
  }
 
 a{
-    -webkit-tap-highlight-color: transparent; /* Safari/Chrome em dispositivos móveis */
+  -webkit-tap-highlight-color: transparent; /* Safari/Chrome em dispositivos móveis */
   -webkit-touch-callout: none; /* Remove menu de toque no iOS */
 }
 .topo-main{
