@@ -11,10 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <style>
         main{
-          display: flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: auto;
         }
         .card{
           font-family: 'fire Sans';
@@ -88,11 +89,26 @@
         text-align: center;
       }
     
-    
+        @media (max-width:480px){
+      .card{
+        min-height: 300px;
+      }
+    }
+    @media (min-width: 1024px){
+      main{
+        margin-bottom: 10cm;
+      }
+      .card{
+        width: 50%;
+      }
+      .Top-card h2{
+        font-size: 22px;
+      }
+    }
   </style>
 </head>
 <body>
-        <div class="Mensagem-topo">
+          <div class="Mensagem-topo">
          <p> &#127882 Loja recém lançada!! &#127882</p>
         </div>
           <header>
@@ -124,16 +140,10 @@
 
         </header>
        <main>
-       
-                               <div class="container-discord">
-                        <a id="discord-flutuante" href="https://discord.com/invite/nPnxHMW4">
-                          <img src="../images/Discord-logo.jpg" width="65px" alt="discord-tela">
-                        </a>
-                      </div>
                            <nav class="pages-topo">
-           <a href="../index.html" target="self_">Início</a>
+           <a href="../index.html">Início</a>
            /                                /
-           <a href="../Pages/page-login.html" target="self_">Login</a>
+           <a href="../Pages/page-login.html">Login</a>
          </nav>
          <div class="card">
                   <div class="Top-card">
