@@ -60,6 +60,9 @@
     header .material-symbols-outlined{
     font-size: 16px;
   } 
+    .carrinho-tela {
+    width: 20vw;
+  }
   main{
     margin-bottom:3cm ;
   }
