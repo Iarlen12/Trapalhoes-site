@@ -105,7 +105,8 @@ header .material-symbols-outlined{
   border-radius: 50%;
 }
  #discord-flutuante img:hover{
-   transform: translate(+10px, +10px);
+   transition: 0.2s;
+   transform: translate(-5px, -5px);
  }
 
 a{
