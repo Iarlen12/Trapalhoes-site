@@ -96,6 +96,10 @@ header .material-symbols-outlined{
 }
 
 /* Header Acima acabado*/
+a{
+  -webkit-tap-highlight-color: transparent; /* Safari/Chrome em dispositivos móveis */
+  -webkit-touch-callout: none; /* Remove menu de toque no iOS */
+}
 .container-discord{
   position: fixed;
   z-index: 9999;
