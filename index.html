@@ -21,7 +21,7 @@
         </div>
         <header>
           <img src="Trapa.png" alt="Trapalhoes">
-          <div>
+          <div class="navbar">
           <span class="material-symbols-outlined">
           search
           </span> 
@@ -33,8 +33,8 @@
           <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
              menu
           </span>
-          
-               <nav id="menu">
+          </div>
+          <nav id="menu">
             <a href="Pages/page-login.html">
               <p>Login</p>
             </a>
@@ -45,9 +45,19 @@
               <p>Avaliações</p>
             </a>
           </nav>
-         
-          </div>
-
+            <div class="search">
+            <i id="icon-search"  class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="searchInput" id="searchInput" placeholder="pesquisar sobre o produto...">
+              </div>
+            <div class="desktop">
+            <a id="login-desktop" href="Pages/page-login.html">
+              Fazer login
+            </a>
+            <button class="button-main car-top" type="submit" onclick="carBar()">
+                  <i class="fa-solid fa-cart-plus" style="font-size:17px;"></i>
+                  Carrinho
+                  </button>
+            </div>
         </header>
         
   <main>
@@ -116,7 +126,6 @@
               A vista no pix
           <i class="fa-brands fa-pix icon" style="color: #63E6BE;"></i>
             </span>
-                
                 <div class="Button-container">
             <button class="button-conteudo"
                 type="submit">
