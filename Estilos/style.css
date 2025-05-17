@@ -16,6 +16,7 @@
 body{
   width: 100vw;
   min-height: 100vh;
+  overflow-x: hidden;
   background:url('../images/background.jpg') center center/cover fixed;
   background-color: rgb(68,6,99);
   color: white;
@@ -59,10 +60,13 @@ header{
   top: 0;
   z-index: 1000;
   background-color: transparent;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
   padding: 25px;
   padding-bottom: 40px;
   margin-bottom:75px;
+}
+.desktop, .search{
+  display: none;
 }
 header nav{
   display:none;
@@ -117,11 +121,12 @@ header .material-symbols-outlined{
       position: fixed;
       top: 0;
       right:-1000px;
+      opacity: 0;
       z-index: 2000;
       background: #0A0A0AF7;
       width: 100vw;
       height:100vh;
-      transition:right 0.6s ease;
+      transition:0.5s ease-out;
 
     }
     .header{
@@ -129,7 +134,7 @@ header .material-symbols-outlined{
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      padding: 30px;
+      padding: 20px;
     }
     .header h1{
       font-size: 23px;
@@ -174,6 +179,7 @@ header .material-symbols-outlined{
     
 .active{
   right:0px;
+  opacity: 10;
 }
 
 /* carrinho de compras acima*/
@@ -211,14 +217,14 @@ a{
   border-radius: 10px;
   padding: 14px 20px ;
   margin: 4px;
-  font-family: 'Fire sans';
+  font-family: 'Poppins';
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
 }
 .button-main:hover{
   background: rgb(98,24,186);
-  transition: 0.5s;
+  transition: 0.5s ease-out;
   transform: scale(1.05);
 }
 .car-top{
@@ -285,10 +291,7 @@ a{
   font-weight: 500;
   color: #c9c9c9;
 }
-#addCar{
-  position: absolute;
-  right: 0;
-}
+
 .button-container{
   display: flex;
   width: 100%;
