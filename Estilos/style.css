@@ -98,12 +98,12 @@ header .material-symbols-outlined{
     .carrinho-tela{
       position: fixed;
       top: 0;
-      right:-600px;
+      right:-1000px;
       z-index: 2000;
       background: #0A0A0AF7;
       width: 100vw;
       height:100vh;
-      transition:0.3s ease;
+      transition:right 0.6s ease;
 
     }
     .header{
