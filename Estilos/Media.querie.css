@@ -41,6 +41,9 @@
 
 
 @media screen and (min-width:768px) and (max-width:1023px){
+  .carrinho-tela{
+    width: 50vw;
+  }
   .catalogo-1{
     margin-bottom:100px;
     grid-template-columns: repeat(3, 1fr);

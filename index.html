@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="Estilos/style.css">
   <link rel="stylesheet" href="Estilos/Media.querie.css" media="screen">
-  
+  <link rel="stylesheet" href="Estilos/carrinho.css">
   <script src="Script/Script.js"></script>
   
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
@@ -26,7 +26,7 @@
           search
           </span> 
           
-          <span class="material-symbols-outlined">
+          <span id="carBar" class="material-symbols-outlined " onclick="carBar()">
                   shopping_cart
           </span> 
           
@@ -51,6 +51,26 @@
         </header>
         
   <main>
+    <div  id="carrinho" class="carrinho-tela">
+       <div class="header">
+        <div>
+          <h1>Carrinho</h1>
+        </div>
+        <div>
+          <i id="close" class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <div class="container-info">
+        <div id="time">
+
+          <div class="mensagem">
+            <center><i id="icon-car"  class="fa-solid fa-hippo"></i></center>
+            <h1>Adicione um item ao carrinho.</h1>
+            <p>Você pode adicionar o seus items aqui para comprar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
                           <div class="container-discord">
            <a id="discord-flutuante" href="https://discord.com/invite/nPnxHMW4">
              <img src="images/Discord-logo.jpg" width="65px" alt="discord-tela">
