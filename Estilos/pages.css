@@ -20,11 +20,10 @@ body{
   color: white;
 }
 .Mensagem-topo{
-  font-size: 13px;
+  font-size: 12px;
   background-color: rgb(113,12,233);
   padding: 8px;
   text-align: center;
-  font-family: 'Cal Sans';
   font-weight: 500;
 }
 header{
