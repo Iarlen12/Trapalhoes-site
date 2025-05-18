@@ -165,7 +165,10 @@ header .material-symbols-outlined{
   right:0px;
   opacity: 10;
 }
-
+a{
+    -webkit-tap-highlight-color: transparent; /* Safari/Chrome em dispositivos móveis */
+  -webkit-touch-callout: none; /* Remove menu de toque no iOS */
+}
 .container-discord{
   position: fixed;
   z-index: 9999;
@@ -196,16 +199,22 @@ header .material-symbols-outlined{
   width: 90vw;
   margin: 10px;
   padding: 10px;
-  background: linear-gradient(to right, #42008360, transparent);
+  background: linear-gradient(to right, #33333345, transparent);
 }
   .pages-topo a{
-    text-decoration: none;
-    color: #cfcfcf;
-    margin: 10px;
-    font-family: 'Cal sans';
-    font-weight: 300;
-    font-size: 13px;
+          text-decoration: none;
   }    
+      .icon-chev{
+      color: #e2e2e2a6;
+      border: 2px solid transparent;
+      font-size: 13px;
+      padding:10px 15px;
+      border-radius: 5px;
+      transition: 0.3s ease-out;
+    }
+    .icon-chev:hover{
+      border: 2px solid #9d00e7;
+    }
 .container{
   background: transparent;
   padding: 20px;
