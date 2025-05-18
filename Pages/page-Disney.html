@@ -12,60 +12,52 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
     </style>
-</head>    <iframe src="background.html" 
+</head>  <iframe src="background.html" 
         style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; pointer-events: none;"
         frameborder="0">
 </iframe>
-      <div  id="carrinho" class="carrinho-tela">
-       <div class="header">
-        <div>
-          <h1>Carrinho</h1>
-        </div>
-        <div>
-          <i id="close" class="fa-solid fa-xmark"></i>
-        </div>
-      </div>
-      <div class="container-info">
-        <div id="time">
-
-          <div class="mensagem">
-            <center><i id="icon-car"  class="fa-solid fa-hippo"></i></center>
-            <h1>Adicione um item ao carrinho.</h1>
-            <p>Você pode adicionar o seus items aqui para comprar.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-           <div class="Mensagem-topo">
+        <div class="Mensagem-topo">
          <p> &#127882 Loja recém lançada!! &#127882</p>
         </div>
-          <header>
+        <header>
           <img src="../Trapa.png" alt="Trapalhoes">
-          <div>
+          <div class="navbar">
           <span class="material-symbols-outlined">
           search
           </span> 
           
-          <span class="material-symbols-outlined">
+          <span id="carBar" class="material-symbols-outlined " onclick="carBar()">
                   shopping_cart
           </span> 
-        
-          <span id="burger" class="material-symbols-outlined"onclick="clickMenu()">
+          
+          <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
              menu
-          </span>                         <nav id="menu">
-            <a href="../Pages/page-login.html">
+          </span>
+          </div>
+          <nav id="menu">
+            <a href="Pages/page-login.html">
               <p>Login</p>
             </a>
-            <a href="../Pages/page-enter.html">
+            <a href="Pages/page-enter.html">
               <p>Cadastro</p>
             </a>
-            <a href="Avaliacoes.html">
+            <a href="Pages/Avaliacoes.html">
               <p>Avaliações</p>
             </a>
           </nav>
-
-          </div>
-
+            <div class="search">
+            <i id="icon-search"  class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="searchInput" id="searchInput" placeholder="pesquisar sobre o produto...">
+              </div>
+            <div class="desktop">
+            <a id="login-desktop" href="Pages/page-login.html">
+              Fazer login
+            </a>
+            <button class="button-main car-top" type="submit" onclick="carBar()">
+                  <i class="fa-solid fa-cart-plus" style="font-size:17px;"></i>
+                  Carrinho
+                  </button>
+            </div>
         </header>
 <body>
        <main>

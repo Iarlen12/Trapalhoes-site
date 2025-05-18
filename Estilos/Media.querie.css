@@ -177,6 +177,7 @@
     color: white;
     border: 2px solid #ebebeb3d;
     border-radius: 50px;
+    min-width: 450px;
     width: 570px;
     outline: none;
     padding: 15px 0 15px 50px;
