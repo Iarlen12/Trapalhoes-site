@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Roboto';  
+  font-family:'Outfit';  
 }
 
 body{
@@ -86,7 +86,7 @@ header img{
   border-radius: 13px;
 }
 header .material-symbols-outlined{
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 5px;
   padding: 10px;
   border-radius: 8px;
@@ -292,8 +292,8 @@ a{
   margin: 5px -5px;
 }
 .icon{
-  font-size: 21px;
-  margin: 0 8px 10px 0;
+  font-size: 17px;
+  margin: 0 5px 10px 0;
 }
 .form-pag h3{
   font-family: 'Poppins';
@@ -321,13 +321,12 @@ a{
   
  
   .card-button h2{
-    font-family: 'Cal sans';
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 19px;
+    font-weight: 600;
     padding: 10px 0 10px;
   }
   .card-button #entrega{
-    background-color: #67158e;
+    background-color: #520099;
     font-weight: 600;
     font-size: 14px;
     width: 70%;
@@ -335,17 +334,26 @@ a{
     border-radius: 5px;
     margin: 0;
   }
+  #entrega i{
+    color:#FFB301;
+    margin-right: 5px;
+  }
   #valor{
     margin-top: 20px;
+  }
+  #valor h2{
+    font-size: 17px;
+    font-weight: 600;
   }
   #valor p{
     background-color: transparent;
     color: #c9c9c9a9;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 13px;
   }
    .Button-2 h3{
     font-size: 17px;
-    font-weight: 700;
+    font-weight: 600;
     color: #c9c9c9a9;
     text-align: center;
     padding: 10px;
