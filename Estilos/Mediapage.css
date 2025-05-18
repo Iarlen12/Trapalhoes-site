@@ -39,11 +39,59 @@
   }
 }
 @media (min-width: 1024px){
-  body{
+        body{
  background:linear-gradient(to bottom,
   #131313 90%,
   #363636);
         }
+  header{
+    justify-content: space-around;
+  }
+  header .desktop{
+    display: block;
+  }
+  .navbar{
+    display: none;
+  }
+  #login-desktop{
+    background: linear-gradient(to right, 
+    #910eff,
+    #a942ff,
+    #910eff);
+    color: white;
+    padding: 14px 20px;
+    margin-right: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .search{
+    display: block;
+    position: relative;
+  }
+  #icon-search{
+    position: absolute;
+    left: 20px;
+    top: 30%;
+    color: #b7b7b7;
+  }
+  #searchInput:focus{
+    background:#444444e8;
+    border: 2px solid #910eff;
+  }
+  #searchInput{
+    background: transparent;
+    color: white;
+    border: 2px solid #ebebeb3d;
+    border-radius: 50px;
+    width: 570px;
+    outline: none;
+    padding: 15px 0 15px 50px;
+    transition: 0.5s ease-out;
+  }
+  .search label{
+    width: 20px;
+  }
           header .material-symbols-outlined{
     font-size: 16px;
   } 
