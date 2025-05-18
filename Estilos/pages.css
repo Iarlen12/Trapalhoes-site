@@ -337,10 +337,8 @@ header .material-symbols-outlined{
   font-family:'Poppins';
   font-weight: 500;
   font-size: 13px;
-}
-footer{
-  background-color:transparent;
-  backdrop-filter: blur(10px);
+}footer{
+  background-color:#68686816;
   padding: 17px;
   color: #BDBDBE;
 }
@@ -351,8 +349,8 @@ footer{
 }.footer p{
   font-family: 'Outfit';
   font-size: 13px;
-  font-weight: 500;
-  max-width: 400px;
+  font-weight: 400;
+  max-width: 460px;
   margin: 20px 0 8px;
 }
 
@@ -387,10 +385,10 @@ footer span{
 
 .Lista-footer{
   margin: 20px;
-  
+  font-family: 'Outfit';
 }
 .Lista-footer h3{
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   color: #FFFFFF;
 }
@@ -401,6 +399,7 @@ footer span{
    gap: 0 40px;
    margin-top: 30px;
    margin-bottom: 30px;
+   margin-left: -20px;
 }
 .Lista-footer ul{
   margin-top: 8px;
@@ -410,10 +409,11 @@ footer span{
   text-decoration: none;
   color: #BDBDBE;
   font-weight: 300;
-  text-indent: 20px;
-  font-size: 13px;
+  font-size: 12px;
 }
-
+.Lista-footer ul a:hover{
+  color: rgb(255,255,255);
+}
 #finalspan{
   display:flex;
   justify-content: center;
