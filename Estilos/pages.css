@@ -16,7 +16,9 @@ body{
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-  background-color: #131313;
+  background:linear-gradient(to bottom,
+  #131313 90%,
+  #4a4a4a);
   color: white;
 }
 .Mensagem-topo{
