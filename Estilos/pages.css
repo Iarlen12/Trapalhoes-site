@@ -422,7 +422,9 @@ header .material-symbols-outlined{
   font-family:'Poppins';
   font-weight: 500;
   font-size: 13px;
-}footer{
+}
+footer{
+  margin-top: 3cm;
   background-color:#68686816;
   padding: 17px;
   color: #BDBDBE;
