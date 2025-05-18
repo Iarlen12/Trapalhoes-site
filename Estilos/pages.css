@@ -16,8 +16,7 @@ body{
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-  background:url('../images/background.jpg') center center/cover fixed;
-  background-color: rgb(68,6,99);
+  background-color: #131313;
   color: white;
 }
 .Mensagem-topo{
