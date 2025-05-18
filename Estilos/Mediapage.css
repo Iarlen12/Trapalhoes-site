@@ -78,6 +78,11 @@
   .search label{
     width: 20px;
   }
+  
+    .carrinho-tela{
+    width: 35vw;
+  }
+  
   .img-container{
     width: 75%;
     height: 400px;
@@ -192,7 +197,9 @@
     display: block;
   }
   
-
+  .carrinho-tela {
+    width: 40vw;
+  }
 
   .img-container img{
     width: 100%;
