@@ -17,11 +17,11 @@ body{
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-
   background:linear-gradient(to bottom,
   #131313 90%,
   #363636);
   color: white;
+  position: relative;
 }
 .menu-lateral{
   display: flex;
@@ -340,7 +340,7 @@ a{
   rgba(210,210,210,0),
   rgba(210,210,210,0.119),
   rgba(210,210,210,0));
-    z-index: 3000;
+    z-index: 6000;
     position: absolute;
     left: -100%;
     top: 0;
@@ -363,8 +363,7 @@ a{
 /*Corpo Acima terminando */
 
 footer{
-  background-color:transparent;
-  backdrop-filter: blur(10px);
+  background-color:#68686816;
   padding: 17px;
   color: #BDBDBE;
 }
@@ -415,7 +414,7 @@ footer span{
 }
 .Lista-footer h3{
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   color: #FFFFFF;
 }
 .Nave{
@@ -435,7 +434,7 @@ footer span{
   text-decoration: none;
   color: #BDBDBE;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 12px;
 }
 .Lista-footer ul a:hover{
   color: rgb(255,255,255);
