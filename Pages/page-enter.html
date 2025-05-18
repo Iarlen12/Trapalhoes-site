@@ -108,7 +108,31 @@
   </style>
 </head>
 <body>
-        <div class="Mensagem-topo">
+    <iframe src="Pages/background.html" 
+        style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; pointer-events: none;"
+        frameborder="0">
+</iframe>
+      <div  id="carrinho" class="carrinho-tela">
+       <div class="header">
+        <div>
+          <h1>Carrinho</h1>
+        </div>
+        <div>
+          <i id="close" class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <div class="container-info">
+        <div id="time">
+
+          <div class="mensagem">
+            <center><i id="icon-car"  class="fa-solid fa-hippo"></i></center>
+            <h1>Adicione um item ao carrinho.</h1>
+            <p>Você pode adicionar o seus items aqui para comprar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+           <div class="Mensagem-topo">
          <p> &#127882 Loja recém lançada!! &#127882</p>
         </div>
           <header>
@@ -118,15 +142,13 @@
           search
           </span> 
           
-          <span  class="material-symbols-outlined">
+          <span class="material-symbols-outlined">
                   shopping_cart
           </span> 
-          
-          <span id="burger" class="material-symbols-outlined"
-          onclick="clickMenu()">
+        
+          <span id="burger" class="material-symbols-outlined"onclick="clickMenu()">
              menu
-          </span>
-                         <nav id="menu">
+          </span>                         <nav id="menu">
             <a href="../Pages/page-login.html">
               <p>Login</p>
             </a>
@@ -137,6 +159,7 @@
               <p>Avaliações</p>
             </a>
           </nav>
+
           </div>
 
         </header>
