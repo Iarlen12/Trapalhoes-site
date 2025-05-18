@@ -21,6 +21,29 @@ body{
   #363636);
   color: white;
 }
+.menu-lateral{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  bottom: 40%;
+  z-index: 1000;
+  backdrop-filter: blur(3px);
+}
+.menu-lateral i{
+  font-size: 20px;
+  color: #a0a0a0e6;
+}
+.menu-lateral i:hover{
+  color: white;
+}
+#insta{
+  font-size: 24px;
+}
 .Mensagem-topo{
   font-size: 12px;
   background-color: rgb(113,12,233);
@@ -171,12 +194,16 @@ a{
 .container-discord{
   position: fixed;
   z-index: 9999;
-  bottom: 50px;
+  bottom: 15px;
   right: 20px;
 }
  #discord-flutuante img{
   border-radius: 50%;
 }
+ #discord-flutuante img:hover{
+   transition: 0.2s;
+   transform: translate(-5px, -5px);
+ }
 .car-top{
   background: transparent;
   color: white;
@@ -184,7 +211,6 @@ a{
   border-radius: 10px;
   padding: 14px 20px ;
   margin: 4px;
-  font-family: 'Poppins';
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
@@ -469,7 +495,7 @@ footer span{
 }
 .Link-footer svg{
   text-decoration: none;
-  width: 23px;
+  width: 20px;
   fill: rgba(218,218,218,0.727);
   outline: none;
 }
@@ -479,7 +505,7 @@ footer span{
 
 }
 #instagram{
-  width: 18px;
+  width: 15px;
 }
 .Link-footer svg:hover{
   fill: white;

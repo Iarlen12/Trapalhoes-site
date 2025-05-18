@@ -235,4 +235,10 @@
     grid-template-columns: repeat(3, 200px);
     margin:0;
   }
+    .Lista-footer h3{
+    font-size: 18px;
+  }
+    .Lista-footer ul a{
+    font-size: 15px;
+  }
 }
