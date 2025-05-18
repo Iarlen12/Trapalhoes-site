@@ -82,6 +82,24 @@
     height: 400px;
     max-height: 450px;
   }
+  .Box-list{
+    width: 80%;
+    height: 600px;
+    margin: 2cm auto;
+  }
+  .Tabela{
+    height: 100%;
+  }
+  .Tabela li{
+    font-size: 16px;
+  }
+  .card-button{
+    margin: 2cm auto;
+    width: 85%;
+  }
+  .Button{
+    width: 60%;
+  }
 }
 @media (min-width: 1024px){
         body{
