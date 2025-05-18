@@ -41,7 +41,7 @@
 
 
 
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:768px){
   header .desktop{
     display: block;
   }
@@ -79,7 +79,8 @@
     color: white;
     border: 2px solid #ebebeb3d;
     border-radius: 50px;
-    width: 500px;
+    min-width: 300px;
+    max-width: 600px;
     outline: none;
     padding: 15px 0 15px 50px;
     transition: 0.3s ease-out;
@@ -121,7 +122,7 @@
   width: 25px;
 }
   .Nave{
-    grid-template-columns: repeat(3, 130px);
+    grid-template-columns: repeat(3, 120px);
     margin:0;
   }
   .Link-footer {
@@ -146,46 +147,9 @@
   .navbar{
     display: none;
   }
-  #login-desktop{
-    background: linear-gradient(to right, 
-    #910eff,
-    #a942ff,
-    #910eff);
-    color: white;
-    padding: 14px 20px;
-    margin-right: 5px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .search{
-    display: block;
-    position: relative;
-  }
-  #icon-search{
-    position: absolute;
-    left: 20px;
-    top: 30%;
-    color: #b7b7b7;
-  }
-  #searchInput:focus{
-    background:#444444e8;
-    border: 2px solid #910eff;
-  }
-  #searchInput{
-    background: transparent;
-    color: white;
-    border: 2px solid #ebebeb3d;
-    border-radius: 50px;
-    min-width: 450px;
-    width: 570px;
-    outline: none;
-    padding: 15px 0 15px 50px;
-    transition: 0.5s ease-out;
-  }
-  .search label{
-    width: 20px;
-  }
+    #searchInput{
+      width: 570px;
+    }
   .carrinho-tela{
     width: 35vw;
   }
@@ -209,33 +173,9 @@
     border-top: none;
   }
   /*corpo*/
-  .footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-  }
-  .footer p{
-    font-size: 16px;
-    width: 100%;
-    max-width: 400px;
-  }
-  .Link-footer svg{
-    width: 35px;
-  }
-  #instagram{
-  width: 25px;
-}
   .Nave{
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(3, 200px);
     margin:0;
-  }
-  .Link-footer {
-    margin:10px;
-  }
-  .Lista-footer ul a{
-    font-size: 13px;
-    text-indent: 0;
   }
   
 }
