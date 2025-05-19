@@ -83,28 +83,84 @@
     width: 35vw;
   }
   
+      .container{
+        display:grid;
+        justify-content: center;
+        grid-template-columns:600px 400px;
+        grid-template-rows:500px 100px;
+        grid-auto-rows: 400px;
+        grid-gap:10px 0;
+        background: #00000010;
+      }
+      .Container2, .card-form, .Box-list{
+        padding: 0px 30px;
+      }
+
+  .Container2{
+    display:flex;
+    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
   .img-container{
-    width: 75%;
-    height: 400px;
-    max-height: 450px;
+    
+    width: 300px;
+    max-width: 500px;
+    height: 200px;
+    position: relative;
+    bottom: 80px;
   }
-  .Box-list{
-    width: 80%;
-    height: 600px;
-    margin: 2cm auto;
-  }
-  .Tabela{
-    height: 100%;
-  }
-  .Tabela li{
-    font-size: 16px;
+    .img-container::after, .img-container::before{
+    animation: 7s spin linear infinite;
   }
   .card-button{
-    margin: 2cm auto;
-    width: 85%;
+    width:70%;
+  }
+   #entrega{
+     width: 100%;
+   }
+  .card-form{
+    
+    grid-column: 2;
+    grid-row: 1/4;
+  }
+  .pagamento{
+    display: block;
+  }
+  
+
+
+  .img-container img{
+    width: 100%;
+    height: 100%;
+  }
+ 
+
+  #produto{
+    display: none;
+  }
+  #Slide{
+    width: 100%;
+  }
+  .Box-list{
+    
+    grid-column: 1;
+    grid-row: 2/5;
+  }
+  .Tabela{
+    width: 100%;
+    height: 70%;
+  }
+  .Tabela h2{
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .Tabela ul li{
+    font-size: 16px;
   }
   .Button{
-    width: 60%;
+    width: 100%;
   }
   /* FOOTER ABAIXO */
   
@@ -154,80 +210,9 @@
           header .material-symbols-outlined{
     font-size: 16px;
   } 
-      .container{
-        display:grid;
-        justify-content: center;
-        grid-template-columns:800px 400px;
-        grid-template-rows:500px 100px;
-        grid-auto-rows: 400px;
-        grid-gap:10px 0;
-        background: #00000010;
-      }
-      .Container2, .card-form, .Box-list{
-        padding: 0px 30px;
-      }
 
-  .Container2{
-    display:flex;
-    gap: 30px;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
-  }
-  .img-container{
-    
-    width: 300px;
-    max-width: 500px;
-    height: 200px;
-    position: relative;
-    bottom: 80px;
-  }
-    .img-container::after, .img-container::before{
-    animation: 7s spin linear infinite;
-  }
-  .card-button{
-    width:50%;
-  }
-  .card-form{
-    
-    grid-column: 2;
-    grid-row: 1/4;
-  }
-  .pagamento{
-    display: block;
-  }
-  
-  .carrinho-tela {
+    .carrinho-tela {
     width: 40vw;
-  }
-
-  .img-container img{
-    width: 100%;
-    height: 100%;
-  }
- 
-
-  #produto{
-    display: none;
-  }
-  #Slide{
-    width: 100%;
-  }
-  .Box-list{
-    
-    grid-column: 1;
-    grid-row: 2/5;
-  }
-  .Tabela{
-    width: 100%;
-    height: 70%;
-  }
-  .Tabela h2{
-    font-size: 18px;
-    font-weight: 800;
-  }
-  .Tabela ul li{
-    font-size: 16px;
   }
   /*corpo*/
   
