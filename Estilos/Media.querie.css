@@ -80,7 +80,6 @@
     border: 2px solid #ebebeb3d;
     border-radius: 50px;
     min-width: 300px;
-    max-width: 600px;
     outline: none;
     padding: 15px 0 15px 50px;
     transition: 0.3s ease-out;
@@ -152,7 +151,7 @@
     display: none;
   }
     #searchInput{
-      width: 570px;
+      min-width: 590px;
     }
   .carrinho-tela{
     width: 35vw;
