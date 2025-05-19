@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <title>Fundo com Glow Pulsante</title>
   <style>
     html, body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background: transparent;
+      margin: 0; padding: 0; overflow: hidden; background: transparent;
     }
-
     canvas {
       display: block;
     }
@@ -33,41 +30,50 @@
       canvas.height = height;
     });
 
-    const particles = [];
-    
     let total;
-      // Simula uma media query com JS:
-      if (width >= 1024) {
-        total = 180; // desktops
-      } else if (width >= 768) {
-        total = 160; // tablets
-      } else {
-        total = 130; // celulares
-      }
+    if (width >= 1024) {
+      total = 250;
+    } else if (width >= 768) {
+      total = 180;
+    } else {
+      total = 100;
+    }
+
+    const particles = [];
 
     for (let i = 0; i < total; i++) {
       particles.push({
         x: Math.random() * width,
         y: Math.random() * height,
-        radius: Math.random() * 2 + 1,
         dx: Math.random() * 0.5 - 0.25,
-        dy: Math.random() * 0.5 - 0.25
+        dy: Math.random() * 0.5 - 0.25,
+        radius: Math.random() * 2 + 1,
+        glowAngle: Math.random() * Math.PI * 2,
+        glowSpeed: Math.random() * 0.02 + 0.01
       });
     }
 
     function animate() {
       ctx.clearRect(0, 0, width, height);
-      ctx.fillStyle = '#860aff69'; // roxo com transparência
 
       for (const p of particles) {
         p.x += p.dx;
         p.y += p.dy;
 
-        // rebote nas bordas
         if (p.x <= 0 || p.x >= width) p.dx *= -1;
         if (p.y <= 0 || p.y >= height) p.dy *= -1;
 
+        // efeito glow pulsante
+        p.glowAngle += p.glowSpeed;
+        const pulse = (Math.sin(p.glowAngle) + 1) / 2; // normaliza para 0 a 1
+
+        const glowOpacity = 0.8 + pulse * 1.6; // varia de 0.3 a 1.0
+        const glowBlur = 30 + pulse * 60;       // varia de 8 a 18
+
         ctx.beginPath();
+        ctx.shadowColor = `rgba(134, 10, 255, ${glowOpacity})`;
+        ctx.shadowBlur = glowBlur;
+        ctx.fillStyle = 'rgba(134, 10, 255, 0.41)';
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
         ctx.fill();
       }
