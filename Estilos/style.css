@@ -74,9 +74,35 @@ header {
   padding-bottom: 40px;
   margin-bottom: 75px;
 }
-
+.search{
+  position: relative;
+  margin: 10px 20px;
+}
+  #icon-search{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    color: #b7b7b7;
+  }
+  #searchInput:focus{
+    background:#ebebeb15;
+    border: 1px solid #910eff;
+  }
+  #searchInput{
+    background: transparent;
+    color: white;
+    border: 1px solid #ebebeb17;
+    border-radius: 50px;
+    width: 350px;
+    outline: none;
+    padding: 13px 0 13px 50px;
+    transition: 0.3s ease-out;
+  }
+  .search label{
+    width: 20px;
+  }
 .desktop,
-.search {
+ header .search {
   display: none;
 }
 
@@ -284,7 +310,9 @@ a {
   grid-auto-rows: 270px;
   grid-auto-flow: row;
   grid-gap: 45px 20px;
+  max-width:950px;
   padding: 20px;
+  margin: auto;
   margin-bottom: 30px;
   background: transparent;
 }

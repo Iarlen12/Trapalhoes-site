@@ -8,7 +8,6 @@
   }
   
   .catalogo-1{
-    
     grid-auto-rows: 290px;
   }
   
@@ -20,6 +19,9 @@
   .button-main{
     font-size: 12px;
   }
+   #searchInput{
+     max-width: 250px;
+   }
   .catalogo-1{
     grid-auto-rows: 290px;
   }
@@ -60,34 +62,14 @@
     text-decoration: none;
     font-weight: 600;
   }
-  .search{
-    display: block;
-    position: relative;
-  }
-  #icon-search{
-    position: absolute;
-    left: 20px;
-    top: 30%;
-    color: #b7b7b7;
-  }
-  #searchInput:focus{
-    background:#444444e8;
-    border: 2px solid #910eff;
-  }
   #searchInput{
-    background: transparent;
-    color: white;
-    border: 2px solid #ebebeb3d;
-    border-radius: 50px;
-    min-width: 300px;
-    outline: none;
-    padding: 15px 0 15px 50px;
-    transition: 0.3s ease-out;
+    width: 300px;
   }
-  .search label{
-    width: 20px;
+  header .search{
+    display: block;
   }
-  .topo-main > .car-top{
+
+  main .search, .topo-main > .car-top{
     display: none;
   }
   /* search bar / header 
@@ -151,7 +133,7 @@
     display: none;
   }
     #searchInput{
-      min-width: 590px;
+      width: 560px;
     }
   .carrinho-tela{
     width: 35vw;
@@ -168,7 +150,8 @@
   
   .catalogo-1{
     margin-bottom:50px;
-    grid-template-columns: repeat(4, 300px);
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
     grid-auto-rows: 320px;
   }
   /*corpo*/
