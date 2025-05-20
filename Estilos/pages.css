@@ -224,15 +224,18 @@ a{
   width: 90vw;
   margin: 10px;
   padding: 10px;
-  background: linear-gradient(to right, #33333345, transparent);
+  border-radius: 5px;
+  
 }
   .pages-topo a{
           text-decoration: none;
   }    
       .icon-chev{
-      color: #e2e2e2a6;
+      background:#0E0E0E;
+      color: #E2E2E2C7;
       border: 2px solid transparent;
       font-size: 13px;
+      margin: 0 5px;
       padding:10px 15px;
       border-radius: 5px;
       transition: 0.3s ease-out;
