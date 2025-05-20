@@ -1,4 +1,21 @@
 
+function filter() {
+  const input = document.getElementById('searchInput').value.toUpperCase()
+  const prompts = document.querySelectorAll('#item')
+  
+  for(var i = 0; i < prompts.length; i++){
+    
+    const h2 = prompts[i].getElemetsByNameTag('h2')[0];
+    
+    if(h2.innerHTML.toUpperCase().indexOf(input) > -1) {
+      prompts[i].style.display = ""
+    } else{
+      prompts[i].style.display = "none"
+    }
+    
+  }
+}
+
 function carBar() {
   const carBar = document.getElementById('carBar')
   const close = document.getElementById('close')
