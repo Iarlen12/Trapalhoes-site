@@ -16,9 +16,7 @@ body{
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-  background:linear-gradient(to bottom,
-  #131313 90%,
-  #363636);
+  background:#131313;
   color: white;
 }
 .menu-lateral{
@@ -277,7 +275,7 @@ a{
   animation: 20s spin linear infinite;
 }
 .img-container::before{
-  filter: blur(5rem);
+  filter: blur(1.5rem);
   opacity: 0.5;
 }
 
@@ -461,7 +459,7 @@ border-bottom:3px solid #B5B5B514;
 }
 footer{
   margin-top: 3cm;
-  background-color:#68686816;
+  background-color:#6868680A;
   padding: 17px;
   color: #BDBDBE;
 }

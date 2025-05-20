@@ -18,9 +18,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-  background: linear-gradient(to bottom,
-      #131313 90%,
-      #363636);
+  background:#131313;
   color: white;
   position: relative;
 }
@@ -438,7 +436,7 @@ a {
 /*Corpo Acima terminando */
 
 footer {
-  background-color: #68686816;
+  background-color: #6868680A;
   padding: 17px;
   color: #BDBDBE;
 }

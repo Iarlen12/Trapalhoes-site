@@ -1,7 +1,7 @@
 
 function filter() {
   const input = document.getElementById('searchInput').value.toUpperCase()
-  const prompts = document.querySelectorAll('#item')
+  const prompts = document.querySelectorAll('.item')
   
   for(var i = 0; i < prompts.length; i++){
     
