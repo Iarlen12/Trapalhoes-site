@@ -1,9 +1,7 @@
-
-  function filter() {
-  const input = document.getElementById('searchInput').value.toUpperCase().trim();
+const input = document.getElementById('searchInput').value.toUpperCase().trim();
   const items = document.querySelectorAll('.item');
   const noResults = document.getElementById('noResults');
-
+  function filter() {
   let found = 0;
 
   for (let item of items) {
@@ -28,7 +26,31 @@
     noResults.style.display = "none";
   }
 }
+function filterDesktop() {
+  let found = 0;
 
+  for (let item of items) {
+    const h2 = item.querySelector('h2');
+    const text = h2 ? h2.innerText.toUpperCase() : "";
+
+    // Obtem o <a> que envolve o .item
+    const wrapper = item.closest('a');
+
+    if (text.includes(input)) {
+      wrapper.style.display = "";
+      found++;
+    } else {
+      wrapper.style.display = "none";
+    }
+  }
+
+  if (input && found === 0) {
+    noResults.style.display = "block";
+    noResults.innerText = `Esse produto não existe no catálogo "${document.getElementById('searchInput').value}"`;
+  } else {
+    noResults.style.display = "none";
+  }
+}
   function carBar() {
     const carBar = document.getElementById('carBar')
     const close = document.getElementById('close')
