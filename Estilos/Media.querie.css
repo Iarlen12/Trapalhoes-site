@@ -65,11 +65,10 @@
   #searchInput{
     width: 300px;
   }
-  header .search{
-    display: block;
+  #searchInput{
+    width: 50%;
   }
-
-  main .search, .topo-main > .car-top{
+ .topo-main > .car-top{
     display: none;
   }
   /* search bar / header 

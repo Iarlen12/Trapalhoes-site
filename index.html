@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="Estilos/style.css">
   <link rel="stylesheet" href="Estilos/Media.querie.css" media="screen">
   <link rel="stylesheet" href="Estilos/carrinho.css">
-  <script src="Script/Script.js"></script>
-  
+
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
       
@@ -37,6 +36,7 @@
           <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
              menu
           </span>
+
           </div>
           <nav id="menu">
             <a href="Pages/page-login.html">
@@ -49,10 +49,6 @@
               <p>Avaliações</p>
             </a>
           </nav>
-            <div class="search">
-            <i id="icon-search"  class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" name="searchInput" id="searchInput" placeholder="pesquisar sobre o produto...">
-              </div>
             <div class="desktop">
             <a id="login-desktop" href="Pages/page-login.html">
               Fazer login
@@ -117,11 +113,18 @@
             </div>
             <div class="search">
             <i id="icon-search"  class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" name="searchInput" id="searchInput" onkeyup="filter() onchange="filter()" placeholder="pesquisar sobre o produto">
+                <input type="text" name="searchInput" id="searchInput" onkeyup="filter()" placeholder="pesquisar sobre o produto">
+                
+                 <p id="noResults" style="
+                 font-weight:500;
+                font-size:13px;
+                color:#D2D2D2BD;
+                margin: 5px;
+                 "></p>
               </div>
      <div class="catalogo-1" >
            <a href="Pages/page-roblox.html">
-                       <div id="item">
+                       <div class="item">
                   <div class="img-container">
                  <img  src="images/Roblox.jpg" alt="Trapa.png">
                   </div>
@@ -146,7 +149,7 @@
            </a>
            
           <a href="Pages/Page-netflix.html">
-                      <div id="item">
+                      <div class="item">
                   <div class="img-container">
                    <img  src="images/Print-Netflix-logo-marca.jpg" alt="Trapa.png">
                   </div>
@@ -173,7 +176,7 @@
 
           
           <a href="Pages/page-Nitro.html">
-                      <div id="item">
+                      <div class="item">
            <div class="img-container">
               <img src="images/discord-Nitro.jpg" alt="Trapa.png">
            </div>
@@ -198,7 +201,7 @@
           
           </a>
           <a href="Pages/page-Disney.html">
-                      <div id="item">
+                      <div class="item">
             <div class="img-container">
            <img src="images/disney.jpg" alt="Trapa.png">
 
@@ -223,7 +226,7 @@
           </a>
           
             <a href="#">
-            <div id="item">
+            <div class="item">
             <div class="img-container">
             <img src="images/HboMax.png" alt="Trapa.png">
             </div>
@@ -246,7 +249,7 @@
           </div>
             </a>
            <a href="#">
-            <div id="item">
+            <div class="item">
             <div class="img-container">
             <img src="Trapa.png" alt="Trapa.png">
             </div>
@@ -268,7 +271,7 @@
           </div>
             </a>
             <a href="#">
-            <div id="item">
+            <div class="item">
             <div class="img-container">
             <img src="Trapa.png" alt="Trapa.png">
             </div>
@@ -292,7 +295,7 @@
           </div>
             </a>
             <a href="#">
-            <div id="item">
+            <div class="item">
             <div class="img-container">
             <img src="Trapa.png" alt="Trapa.png">
             </div>
@@ -319,203 +322,7 @@
           
           
           
-     <div class="catalogo-1">
-          <div id="item">
-            <div class="img-container">
-            <img src="Trapa.png" alt="Trapa.png">
-            </div>
-              <div class="conteudo-item">
-            <h2>CONTAS ROBLOX</h2>
-            <p>R$ 11,00</p>
-                        <span>
-              A vista no pix
-          <i class="fa-brands fa-pix icon" style="color: #63E6BE;"></i>
-            </span>
-                
-                <div class="Button-container">
-            <button class="button-conteudo"
-                type="submit">
-                  Comprar agora
-              </button>
-                </div>
-              </div>
-          </div>
-                    <div id="item">
-            <div class="img-container">
-            <img src="Trapa.png" alt="Trapa.png">
-            </div>
 
-                          <div class="conteudo-item">
-            <h2>CONTAS ROBLOX</h2>
-            <p>R$ 11,00</p>
-                        <span>
-              A vista no pix
-          <i class="fa-brands fa-pix icon" style="color: #63E6BE;"></i>
-            </span>
-                
-                <div class="Button-container">
-            <button class="button-conteudo"
-                type="submit">
-                  Comprar agora
-                </button>
-                </div>
-              </div>
-
-          </div>
-                              <div id="item">
-            <div class="img-container">
-            <img src="Trapa.png" alt="Trapa.png">
-            </div>
-
-              <div class="conteudo-item">
-            <h2>CONTAS ROBLOX</h2>
-            <p>R$ 11,00</p>
-                        <span>
-              A vista no pix
-          <i class="fa-brands fa-pix icon" style="color: #63E6BE;"></i>
-            </span>
-                
-                <div class="Button-container">
-            <button class="button-conteudo"
-                type="submit">
-                  Comprar agora
-                </button>
-                </div>
-              </div>
-
-          </div>
-          </div>
-            
-          </div>
-     <div class="catalogo-1">
-                <div id="item">
-            <div class="img-container">
-            <img src="Trapa.png" alt="Trapa.png">
-            </div>
-          
-                        <div class="conteudo-item">
-            <h2>CONTAS ROBLOX</h2>
-            <p>R$ 11,00</p>
-                        <span>
-              A vista no pix
-          <i class="fa-brands fa-pix icon" style="color: #63E6BE;"></i>
-            </span>
-                
-                <div class="Button-container">
-            <button class="button-conteudo"
-                type="submit">
-                  Comprar agora
-                </button>
-                </div>
-              </div>  
-            
-          </div>
-          <div id="item">
-            <div class="img-container">
-            <img src="Trapa.png" alt="Trapa.png">
-            </div>
-          
-                          <div class="conteudo-item">
-            <h2>CONTAS ROBLOX</h2>
-            <p>R$ 11,00</p>
-                        <span>
-              A vista no pix
-          <i class="fa-brands fa-pix icon" style="color: #63E6BE;"></i>
-            </span>
-                
-                <div class="Button-container">
-            <button class="button-conteudo"
-                type="submit">
-                  Comprar agora
-                </button>
-                </div>
-              </div>
-            
-          </div>
-          <div id="item">
-            <div class="img-container">
-            <img src="Trapa.png" alt="Trapa.png">
-            </div>
-
-                         <div class="conteudo-item">
-            <h2>CONTAS ROBLOX</h2>
-            <p>R$ 11,00</p>
-                        <span>
-              A vista no pix
-          <i class="fa-brands fa-pix icon" style="color: #63E6BE;"></i>
-            </span>
-                
-                <div class="Button-container">
-            <button class="button-conteudo"
-                type="submit">
-                  Comprar agora
-                </button>
-                </div>
-              </div>
-
-          </div>
-          <div id="item">
-            <div class="img-container">
-            <img src="Trapa.png" alt="Trapa.png">
-            </div>
-              <div class="conteudo-item">
-            <h2>CONTAS ROBLOX</h2>
-            <p>R$ 11,00</p>
-                        <span>
-              A vista no pix
-          <i class="fa-brands fa-pix icon" style="color: #63E6BE;"></i>
-            </span>
-                
-                <div class="Button-container">
-            <button class="button-conteudo"
-                type="submit">
-                  Comprar agora
-                </button>
-                </div>
-              </div>
-
-
-          </div>
-          <div id="item">
-            <div class="img-container">
-            <img src="Trapa.png" alt="Trapa.png">
-            </div>
-              <div class="conteudo-item">
-            <h2>CONTAS ROBLOX</h2>
-            <p>R$ 11,00</p>
-                        <span>
-              A vista no pix
-          <i class="fa-brands fa-pix icon" style="color: #63E6BE;"></i>
-            </span>
-                
-                <div class="Button-container">
-            <button class="button-conteudo"
-                type="submit">
-                  Comprar agora
-                </button>
-                </div>
-              </div>
-
-          </div>
-          <div id="item">
-            <div class="img-container">
-            <img src="Trapa.png" alt="Trapa.png">
-            </div>
-              <div class="conteudo-item">
-            <h2>CONTAS ROBLOX</h2>
-            <p>R$ 11,00</p>
-                        <span>
-              A vista no pix
-          <i class="fa-brands fa-pix icon" style="color: #63E6BE;"></i>
-            </span>
-                
-                <div class="Button-container">
-            <button class="button-conteudo"
-                type="submit">
-                  Comprar agora
-                </button>
-                </div>
-              </div>
           </div>   
        
      </div>
@@ -581,7 +388,8 @@ Compre tranquilo na Trapalhões Shop, sabendo que está lidando com uma loja dig
              <span>Copyright © Trapalhões-shop</span>
            </div>
         </footer>
-
+  <script src="Script/Script.js"></script>
+  
 </body>
 
 </html>

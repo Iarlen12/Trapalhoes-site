@@ -60,11 +60,11 @@
     top: 30%;
     color: #b7b7b7;
   }
-  #searchInput:focus{
+  .searchInput:focus{
     background:#444444e8;
     border: 2px solid #910eff;
   }
-  #searchInput{
+  .searchInput{
     background: transparent;
     color: white;
     border: 2px solid #ebebeb3d;
