@@ -1,6 +1,6 @@
 
   function filter() {
-  const input = document.getElementById('searchInput').value.toUpperCase();
+  const input = document.getElementById('searchInput').value.toUpperCase().trim();
   const items = document.querySelectorAll('.item');
   const noResults = document.getElementById('noResults');
 
@@ -67,3 +67,4 @@
       menu.style.transform = 'translateY(0)';
     }
   }
+  
