@@ -76,7 +76,12 @@ header {
   position: relative;
   margin: 10px 20px;
 }
-
+  .search #noResults, .no-results{
+    font-weight:500;
+    font-size:13px;
+    color:#D2D2D2BD;
+    margin: 5px;
+  }
   #icon-search{
     position: absolute;
     left: 20px;
@@ -87,7 +92,7 @@ header {
     background:#ebebeb15;
     border: 1px solid #910eff;
   }
-  #searchInput, #searchInput-desktop{
+  #searchInput,#searchInput-desktop{
     background: transparent;
     color: white;
     border: 1px solid #ebebeb17;
@@ -100,7 +105,7 @@ header {
   .search label{
     width: 20px;
   }
-.desktop,.search-desktop {
+.desktop,.search-desktop{
   display: none;
 }
 

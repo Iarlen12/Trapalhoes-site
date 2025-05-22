@@ -12,6 +12,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
       
   <title>Trapalhões-Site/inicio</title>
+
 </head>
 
 <body>
@@ -34,10 +35,6 @@
           <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
              menu
           </span>
-            <div class="search-desktop">
-            <i id="icon-search"  class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" name="searchInput" id="searchInput-desktop" onkeyup="filterDesktop()" placeholder="pesquisar sobre o produto...">
-              </div>
           </div>
           <nav id="menu">
             <a href="Pages/page-login.html">
@@ -50,6 +47,10 @@
               <p>Avaliações</p>
             </a>
           </nav>
+                      <div class="search-desktop">
+              <i id="icon-search" class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" name="searchInput" id="searchInput-desktop" onkeyup="filterProducts('searchInput-desktop', 'noResults-desktop')" placeholder="pesquisar sobre o produto...">
+            </div>
             <div class="desktop">
             <a id="login-desktop" href="Pages/page-login.html">
               Fazer login
@@ -124,15 +125,13 @@
             </div>
             <div class="search">
             <i id="icon-search"  class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" name="searchInput" id="searchInput" onkeyup="filter()" placeholder="pesquisar sobre o produto">
+                <input type="text" name="searchInput" id="searchInput" onkeyup="filterProducts('searchInput', 'noResults')" placeholder="pesquisar sobre o produto">
                 
-                 <p id="noResults" style="
-                 font-weight:500;
-                font-size:13px;
-                color:#D2D2D2BD;
-                margin: 5px;
-                 "></p>
+                 <p id="noResults"></p>
               </div>
+          <div>
+            <p id="noResults-desktop" class="no-results"></p>
+          </div>
      <div class="catalogo-1" >
            <a href="Pages/page-roblox.html">
                        <div class="item">

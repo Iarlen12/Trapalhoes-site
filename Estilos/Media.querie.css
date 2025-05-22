@@ -44,9 +44,11 @@
 
 
 @media screen and (min-width:768px){
-  header .desktop{
+  
+  header .desktop, .search-desktop{
     display: block;
   }
+  
   .navbar{
     display: none;
   }
@@ -62,18 +64,21 @@
     text-decoration: none;
     font-weight: 600;
   }
-  #searchInput{
-    width: 300px;
+  #searchInput-desktop{
+    min-width: 350px;
+    max-width: 570px;
   }
-  #searchInput{
-    width: 50%;
+  .no-results{
+    text-align: center;
   }
  .topo-main > .car-top{
     display: none;
   }
   /* search bar / header 
   */
-  
+  .search{
+    display: none;
+  }
 
   .carrinho-tela{
     width: 50vw;

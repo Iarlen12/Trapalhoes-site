@@ -1,52 +1,31 @@
-const input = document.getElementById('searchInput').value.toUpperCase().trim();
+
+  
+  function filterProducts(inputId, noResultsId) {
+  const inputField = document.getElementById(inputId);
+  const inputValue = inputField.value.toUpperCase().trim();
   const items = document.querySelectorAll('.item');
-  const noResults = document.getElementById('noResults');
-  function filter() {
+  const noResults = document.getElementById(noResultsId);
+
   let found = 0;
 
-  for (let item of items) {
+  items.forEach(item => {
     const h2 = item.querySelector('h2');
     const text = h2 ? h2.innerText.toUpperCase() : "";
 
-    // Obtem o <a> que envolve o .item
     const wrapper = item.closest('a');
 
-    if (text.includes(input)) {
+    if (text.includes(inputValue)) {
       wrapper.style.display = "";
       found++;
     } else {
       wrapper.style.display = "none";
     }
-  }
+  });
 
-  if (input && found === 0) {
+  if (inputValue && found === 0) {
     noResults.style.display = "block";
-    noResults.innerText = `Esse produto não existe no catálogo "${document.getElementById('searchInput').value}"`;
-  } else {
-    noResults.style.display = "none";
-  }
-}
-function filterDesktop() {
-  let found = 0;
-
-  for (let item of items) {
-    const h2 = item.querySelector('h2');
-    const text = h2 ? h2.innerText.toUpperCase() : "";
-
-    // Obtem o <a> que envolve o .item
-    const wrapper = item.closest('a');
-
-    if (text.includes(input)) {
-      wrapper.style.display = "";
-      found++;
-    } else {
-      wrapper.style.display = "none";
-    }
-  }
-
-  if (input && found === 0) {
-    noResults.style.display = "block";
-    noResults.innerText = `Esse produto não existe no catálogo "${document.getElementById('searchInput').value}"`;
+    noResults.innerHTML = `Esse produto não existe no catálogo 
+    <span style="color:white;">${inputField.value}</span>`;
   } else {
     noResults.style.display = "none";
   }
