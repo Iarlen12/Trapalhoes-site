@@ -25,7 +25,7 @@
   if (inputValue && found === 0) {
     noResults.style.display = "block";
     noResults.innerHTML = `Esse produto não existe no catálogo 
-    <span style="color:white;">${inputField.value}</span>`;
+    <span style="color:white;">"${inputField.value}"</span>`;
   } else {
     noResults.style.display = "none";
   }
