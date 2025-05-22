@@ -1,0 +1,81 @@
+
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+hr{
+  width: 100%;
+  margin: 10px 0 10px;
+}
+h1{
+  margin: 10px;
+}
+h2{
+  font-size: 22px;
+  color: #790CFF;
+  margin-top: 30px;
+  text-shadow: 1px 2px 4px #3E065C;
+}
+strong{
+  color: #C10000;
+}
+#warn{
+  background: #B5B5B517;
+  border-radius: 10px;
+  padding: 10px;
+}
+.container p{
+  margin: 0.5cm 0 1.5cm;
+  text-align: justify;
+  font-size: 13px;
+}
+.container-back{
+  padding: 10px;
+  margin-bottom: 3cm;
+}
+.container-back p{
+  padding: 7px;
+  font-size: 14px;
+}
+@media (min-width:768px){
+  h2{
+    font-size: 20px;
+  }
+  
+  /*corpo*/
+  
+  
+  
+    .footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .footer p{
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+  .Link-footer svg{
+    width: 35px;
+  }
+  #instagram{
+  width: 25px;
+}
+  .Nave{
+    grid-template-columns: repeat(3, 120px);
+    margin:0;
+  }
+  .Link-footer {
+    margin:10px;
+  }
+  .Lista-footer ul a{
+    font-size: 13px;
+    text-indent: 0;
+  }
+  
+}
+      
