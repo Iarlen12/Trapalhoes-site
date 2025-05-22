@@ -220,11 +220,6 @@
   }
 }
 @media (min-width: 1024px){
-        body{
- background:linear-gradient(to bottom,
-  #131313 90%,
-  #363636);
-        }
       #searchInput{
         min-width: 590px;
         
