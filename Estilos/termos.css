@@ -43,11 +43,55 @@ strong{
   padding: 7px;
   font-size: 14px;
 }
+.desktop{
+  display: none;
+}
+    #login-desktop{
+    background: linear-gradient(to right, 
+    #910eff,
+    #a942ff,
+    #910eff);
+    color: white;
+    padding: 14px 20px;
+    margin-right: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+    .car-top, #login-desktop, .button-main{
+    font-size: 14px;
+    padding: 14px 15px;
+  }
+  .car-top i{
+    margin-right: 5px;
+  }
+
+    .button-main #star{
+    font-size: 16px;
+    color: #FEB901;
+    margin-right: 5px;
+  }
+  .button-main:hover{
+    background-color: #9e9e9e2c;
+  border: 1px solid #9e9e9e73;
+  }
+  
+  .button-main{
+    background: transparent;
+    border: 1px solid #9e9e9e43;
+  }
 @media (min-width:768px){
   h2{
     font-size: 20px;
   }
   
+  .desktop{
+    display: block;
+  }
+  .navbar{
+    display: none;
+  }
+
   /*corpo*/
   
   

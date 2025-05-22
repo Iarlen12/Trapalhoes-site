@@ -80,7 +80,7 @@ header {
     font-weight:500;
     font-size:13px;
     color:#D2D2D2BD;
-    margin: 5px;
+    margin: 10px;
   }
   #icon-search{
     position: absolute;
@@ -225,12 +225,14 @@ header .material-symbols-outlined {
 }
 
 #close{
-
+background-Color: #7200FF;
+  border-radius: 50%;
   padding: 2px 5px;
+  border: 2px solid transparent;
 }
 
-#close :hover {
-  border-radius: 50%;
+#close:hover {
+  
   border: 2px solid white;
 }
 
@@ -289,7 +291,7 @@ a {
 
 .button-main:hover {
   background: rgb(98, 24, 186);
-  transition: 0.5s ease-out;
+  transition: 0.3s ease-out;
   transform: scale(1.05);
 }
 
