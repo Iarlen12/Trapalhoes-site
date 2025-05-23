@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="Estilos/input.css">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-      
+      <script src="https://unpkg.com/lucide@latest"></script>
   <title>Trapalhões-Site/inicio</title>
 
 </head>
@@ -141,7 +141,7 @@
             <p id="noResults-desktop" class="no-results"></p>
           </div>
      <div class="catalogo-1" >
-           <a href="Pages/page-roblox.html">
+           <a class="link" href="Pages/page-roblox.html">
                        <div class="item">
                   <div class="img-container">
                  <img  src="images/Roblox.jpg" alt="Trapa.png">
@@ -155,10 +155,14 @@
               A vista no pix
           <i class="fa-brands fa-pix icon" style="color: #63E6BE;"></i>
             </span>
+            
                 <div class="Button-container">
             <button class="button-conteudo"
                 type="submit">
                   Comprar agora
+                </button>
+                <button id="ProdutoCar" type="submit">
+                <i data-lucide="shopping-bag"></i>
                 </button>
                 </div>
             
@@ -166,7 +170,7 @@
           </div>
            </a>
            
-          <a href="Pages/Page-netflix.html">
+          <a class="link" href="Pages/Page-netflix.html">
                       <div class="item">
                   <div class="img-container">
                    <img  src="images/Print-Netflix-logo-marca.jpg" alt="Trapa.png">
@@ -186,6 +190,9 @@
                 type="submit">
                   Comprar agora
                 </button>
+                <button id="ProdutoCar" type="submit">
+                <i data-lucide="shopping-bag"></i>
+                </button>
                 </div>
               </div>
             
@@ -193,7 +200,7 @@
           </a>
 
           
-          <a href="Pages/page-Nitro.html">
+          <a class="link" href="Pages/page-Nitro.html">
                       <div class="item">
            <div class="img-container">
               <img src="images/discord-Nitro.jpg" alt="Trapa.png">
@@ -212,13 +219,16 @@
                 type="submit">
                   Comprar agora
                 </button>
+                <button id="ProdutoCar" type="submit">
+<i data-lucide="shopping-bag"></i>
+                </button>
                 </div>
               </div>
     
           </div>
           
           </a>
-          <a href="Pages/page-Disney.html">
+          <a  class="link" href="Pages/page-Disney.html">
                       <div class="item">
             <div class="img-container">
            <img src="images/disney.jpg" alt="Trapa.png">
@@ -237,13 +247,16 @@
                 type="submit">
                   Comprar agora
                 </button>
+                <button id="ProdutoCar" type="submit">
+<i data-lucide="shopping-bag"></i>
+                </button>
                 </div>
               </div>
         
           </div>
           </a>
           
-            <a href="#">
+            <a class="link" href="#">
             <div class="item">
             <div class="img-container">
             <img src="images/HboMax.png" alt="Trapa.png">
@@ -261,12 +274,15 @@
                 type="submit">
                   Comprar agora
                 </button>
+                <button id="ProdutoCar" type="submit">
+<i data-lucide="shopping-bag"></i>
+                </button>
                 </div>
             </div>
               
           </div>
             </a>
-           <a href="#">
+           <a  class="link" href="#">
             <div class="item">
             <div class="img-container">
             <img src="Trapa.png" alt="Trapa.png">
@@ -284,11 +300,14 @@
                 type="submit">
                   Comprar agora
                 </button>
+                <button id="ProdutoCar" type="submit">
+<i data-lucide="shopping-bag"></i>
+                </button>
                 </div>
               </div>
           </div>
             </a>
-            <a href="#">
+            <a  class="link" href="#">
             <div class="item">
             <div class="img-container">
             <img src="Trapa.png" alt="Trapa.png">
@@ -306,13 +325,16 @@
                 type="submit">
                   Comprar agora
                 </button>
+                <button id="ProdutoCar" type="submit">
+<i data-lucide="shopping-bag"></i>
+                </button>
                 </div>
               </div>
             
 
           </div>
             </a>
-            <a href="#">
+            <a  class="link" href="#">
             <div class="item">
             <div class="img-container">
             <img src="Trapa.png" alt="Trapa.png">
@@ -329,7 +351,10 @@
                 <div class="Button-container">
             <button class="button-conteudo"
                 type="submit">
-                  Comprar agora 
+                  Comprar agora
+                </button>
+                <button id="ProdutoCar" type="submit">
+<i data-lucide="shopping-bag"></i>
                 </button>
                 </div>
               </div>
@@ -407,8 +432,22 @@ Compre tranquilo na Trapalhões Shop, sabendo que está lidando com uma loja dig
            </div>
         </footer>
   <script src="Script/Script.js"></script>
-  <script src="Script/input.js"></script>
+<script>
+  const links = document.querySelectorAll('.link');
 
+  links.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault(); // Impede o redirecionamento imediato
+
+      // Aqui você pode colocar uma animação, se quiser
+
+      setTimeout(() => {
+        window.location.href = this.href; // Redireciona após 1 segundo
+      }, 0); // 1000 milissegundos = 1 segundo
+    });
+  });
+      lucide.createIcons();
+</script>
 </body>
 
 </html>
