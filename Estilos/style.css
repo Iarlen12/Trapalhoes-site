@@ -298,6 +298,7 @@ a {
 .car-top {
   background: transparent;
   border: 1px solid #9e9e9e43;
+  cursor: pointer;
 }
 
 .car-top:hover {
@@ -388,6 +389,7 @@ a {
   font-family: 'Outfit';
   font-weight: 500;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .button-conteudo:hover {

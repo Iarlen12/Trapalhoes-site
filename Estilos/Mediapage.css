@@ -47,15 +47,15 @@
     #a942ff,
     #910eff);
     color: white;
-    padding: 14px 20px;
+    padding: 14px 15px;
     margin-right: 5px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: 600;
   }
-    .car-top, #login-desktop, .button-main{
+  .car-top, .button-main{
     font-size: 14px;
-    padding: 14px 15px;
+    padding: 13px 20px;
   }
   .car-top i{
     margin-right: 5px;
