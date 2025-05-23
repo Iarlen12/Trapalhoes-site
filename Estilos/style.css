@@ -65,7 +65,7 @@ header {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 2000;
   background-color: transparent;
   backdrop-filter: blur(5px);
   padding: 25px;
@@ -386,7 +386,7 @@ a {
 #ProdutoCar{
   background: #8C08FF;
   color: white;
-  z-index: 2000;
+  z-index: 1000;
   border: none;
   padding: 5px 13px;
   margin-left: 5px;
