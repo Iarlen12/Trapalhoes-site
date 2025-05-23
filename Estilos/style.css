@@ -18,7 +18,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-  background:#131313;
+  background:#0A0A0A;
   color: white;
   position: relative;
 }
@@ -311,9 +311,8 @@ a {
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
-  gris-auto-columns: 270px;
   grid-auto-rows: 270px;
-  grid-auto-flow: row;
+  grid-auto-flow: dense;
   grid-gap: 45px 20px;
   max-width:950px;
   padding: 20px;
@@ -337,7 +336,7 @@ a {
 
 .item:hover {
   border: 2px solid rgb(123, 0, 230);
-  transition: 0.5s;
+  transition: 0.15s;
   transform: scale(1.05);
 }
 
@@ -346,23 +345,23 @@ a {
   margin-top: -5px;
   padding: 8px;
   width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.155);
+  border: 1px solid #FFFFFF0F;
   border-top: none;
   border-radius: 0px 0px 10px 10px;
-  font-family: 'Outfit';
+  font-family: 'Outfit' sans-serif;
 }
 
 .conteudo-item h2 {
-  font-size: 13px;
+  color: white;
+  font-size: 15px;
   font-weight: 500;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 }
 
 .conteudo-item p {
-  font-size: 14px;
-  color: #8400ff;
+  font-size: 18px;
+  color:#7C00E7;
   font-weight: 500;
-  margin-bottom: 5px;
 }
 
 .conteudo-item span {
@@ -379,23 +378,23 @@ a {
 }
 
 .button-conteudo {
-  background: rgb(116, 15, 237);
-  color: #ffffffc3;
+  background: #821CFC;
+  color: white;
   border: none;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 8px;
+  padding: 8px;
   margin-top: 20px;
   width: 100%;
   font-family: 'Outfit';
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .button-conteudo:hover {
   background-color: rgb(84, 9, 175);
   color: white;
   border: 2px solid rgb(154, 50, 255);
-  transition: 1s;
+  transition: 0.15s;
 }
 
 
@@ -411,7 +410,7 @@ a {
   width: 100%;
   height: 150px;
   border-radius: 10px 10px 0px 0px;
-  border: 1px solid rgba(255, 255, 255, 0.155);
+  border: 1px solid #FFFFFF0F;
 }
 
 .img-container::before {
