@@ -357,7 +357,7 @@ a {
 
 .conteudo-item h2 {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -367,7 +367,27 @@ a {
   color:#7C00E7;
   font-weight: 500;
 }
-
+.preco-pro{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#icon-lucide{
+  margin-right:13px;
+  padding: 5px;
+  border: 1px solid #EBEBEB1F;
+  border-radius: 5px;
+  
+}
+#icon-lucide svg{
+  width: 25px;
+  fill: #009FFF;
+  stroke: none;
+  
+  }
 .conteudo-item span {
   font-size: 13px;
   font-weight: 500;
@@ -380,8 +400,6 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  
-
 }
 #ProdutoCar{
   background: #8C08FF;
@@ -415,7 +433,7 @@ a {
   width: 73%;
   font-family: 'Outfit';
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   transition: transform 0.15s ease;
 }
