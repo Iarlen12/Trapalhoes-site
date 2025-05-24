@@ -69,3 +69,15 @@
     }
   }
   
+function addCart() {
+  const addCart = document.getElementById('ProdutoCar')
+  const carrinhoTela = document.getElementsByClassName('carrinho-tela')
+  addCart.addEventListener('click', (event {
+    
+    
+  }
+  )
+  
+  
+  
+}

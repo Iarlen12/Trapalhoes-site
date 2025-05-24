@@ -51,7 +51,7 @@ body {
 }
 
 .Mensagem-topo {
-  font-size: 12px;
+  font-size: 14px;
   background-color: rgb(113, 12, 233);
   padding: 8px;
   text-align: center;
@@ -354,15 +354,15 @@ a {
 }
 
 .conteudo-item h2 {
-  color: #eeeeee;
+  color: #EEEEEE;
   font-size: 14px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .conteudo-item p {
   font-family: 'Roboto';
-  font-size: 19px;
+  font-size: 20px;
   color:#ffffff;
   font-weight: 400;
 }
@@ -376,15 +376,16 @@ a {
 }
 #icon-lucide{
   margin-right:13px;
+  margin-bottom: 8px;
   padding:3px 6px;
   border: 1px solid #EBEBEB1F;
-  border-radius: 10px;
+  border-radius: 5px;
   
 }
 #icon-lucide svg{
   width: 20px;
-  fill:#FFF8214A;
-  stroke:#FFF8218A;
+  fill:#7101DBA8;
+  stroke:none;
   
   }
 .conteudo-item span {
