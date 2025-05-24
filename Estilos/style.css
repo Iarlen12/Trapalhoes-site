@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -318,7 +318,6 @@ a {
   grid-gap: 45px 20px;
   max-width:950px;
   padding: 20px;
-  margin: auto;
   margin-bottom: 30px;
   background: transparent;
 }
@@ -355,42 +354,43 @@ a {
 }
 
 .conteudo-item h2 {
-  color: white;
+  color: #eeeeee;
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
 .conteudo-item p {
-  font-size: 18px;
-  color:#7C00E7;
-  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 19px;
+  color:#ffffff;
+  font-weight: 400;
 }
 .preco-pro{
+  margin-top: -5px;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 #icon-lucide{
   margin-right:13px;
-  padding: 5px;
+  padding:2px 4px;
   border: 1px solid #EBEBEB1F;
-  border-radius: 5px;
+  border-radius: 8px;
   
 }
 #icon-lucide svg{
   width: 25px;
-  fill: #009FFF;
-  stroke: none;
+  fill:#FFF8214A;
+  stroke:#FFF8218A;
   
   }
 .conteudo-item span {
-  font-size: 13px;
-  font-weight: 500;
-  color: #c9c9c9;
+  font-size: 15px;
+  font-weight: 400;
+  color: #dadadac5;
 }
 
 .button-container {
@@ -428,7 +428,7 @@ a {
   border: none;
   border-radius:5px;
   padding: 8px;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 73%;
   font-family: 'Outfit';
   font-weight: 500;
