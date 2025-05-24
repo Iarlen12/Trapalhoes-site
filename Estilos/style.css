@@ -314,8 +314,7 @@ a {
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 270px;
-  grid-auto-flow: dense;
+  grid-template-rows: repeat(2, 310px);
   grid-gap: 45px 20px;
   max-width:950px;
   padding: 20px;
