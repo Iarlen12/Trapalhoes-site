@@ -376,13 +376,13 @@ a {
 }
 #icon-lucide{
   margin-right:13px;
-  padding:2px 4px;
+  padding:3px 6px;
   border: 1px solid #EBEBEB1F;
-  border-radius: 8px;
+  border-radius: 10px;
   
 }
 #icon-lucide svg{
-  width: 25px;
+  width: 20px;
   fill:#FFF8214A;
   stroke:#FFF8218A;
   
